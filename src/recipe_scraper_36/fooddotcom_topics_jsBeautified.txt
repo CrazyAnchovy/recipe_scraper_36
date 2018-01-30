@@ -1,0 +1,1460 @@
+crazy anchovy looking to narrow down my scrape to lines 365-600
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#">
+ <head>
+  <script>
+   if (typeof SNI_COMMUNITY_SERVICES == 'undefined') {
+        SNI_COMMUNITY_SERVICES = {};
+    }
+    SNI_COMMUNITY_SERVICES.SITE_NAME = "fooddotcom";
+    SNI_COMMUNITY_SERVICES.SITE_CODE = "fdc";
+  </script>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-type"/>
+  <meta content="" name="keywords"/>
+  <meta content="All Categories by Title : Food.com : The most complete collection of free recipes on the Internet, trusted by home chefs throughout the world." name="description"/>
+  <meta content="" name="sailthru.tags"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="app-id=418971697, affiliate-data=ct=fd-smart-banner&amp;pt=260410" name="apple-itunes-app"/>
+  <meta content="293868454060703" property="fb:app_id"/>
+  <meta content="118337671518735" property="fb:pages"/>
+  <meta content="website" property="og:type"/>
+  <meta content="All Categories By Title : Letter 123 : : Food.com" property="og:title"/>
+  <meta content="http://www.food.com/topics" property="og:url"/>
+  <meta content="All Categories by Title : Food.com : The most complete collection of free recipes on the Internet, trusted by home chefs throughout the world." property="og:description"/>
+  <meta content="http://img.food.com/fdc/img/FDC_share-logo.png" property="og:image"/>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);
+  </script>
+  <title>
+   All Categories By Title : Letter 123 : : Food.com
+  </title>
+  <link href="http://img.food.com/fdc/img/FDC_share-logo.png" rel="image_src"/>
+  <link href="http://img.food.com/fdc/img/ico/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="http://img.food.com/fdc/mobile/icons/touch-icon-iphone.png" rel="touch-icon"/>
+  <link href="http://img.food.com/fdc/mobile/icons/touch-icon-ipad.png" rel="touch-icon" sizes="76x76"/>
+  <link href="http://img.food.com/fdc/mobile/icons/touch-icon-ipad@2x.png" rel="touch-icon" sizes="120x120"/>
+  <link href="http://img.food.com/fdc/mobile/icons/touch-icon-iphone@3x.png" rel="touch-icon" sizes="152x152"/>
+  <link href="http://img.food.com/fdc/mobile/icons/touch-icon-iphone@2x.png" rel="touch-icon-precomposed"/>
+  <link href="http://www.food.com/topics" rel="canonical"/>
+  <link href="https://plus.google.com/117908044835237955765" rel="publisher"/>
+  <link href="http://img.food.com/fd/css/bootstrap.min.css?v=114" rel="stylesheet" type="text/css"/>
+  <link href="http://img.food.com/fd/v1/css/fd.min.css?v=114" rel="stylesheet" type="text/css"/>
+  <link href="http://img.food.com/fd/css/pages/topics-index.min.css?v=114" rel="stylesheet" type="text/css"/>
+  <style type="text/css">
+  </style>
+  <script>
+   window.__gigyaConf = {
+        defaultRegScreenSet: "FDC-LoginReg",
+        defaultMobileRegScreenSet: "FDC-LoginReg",
+        enabledProviders:'facebook,twitter,instagram,google,yahoo',
+        sessionExpiration: 31536000
+    };
+  </script>
+  <script src="http://img.food.com/fd/v1/js/lib-bundle.min.js?v=114" type="text/javascript">
+  </script>
+  <script src="http://code.adsales.snidigital.com/conf/ads-config.min.js" type="text/javascript">
+  </script>
+  <script src="http://code.adsales.snidigital.com/lib/2/sni-ads.min.js" type="text/javascript">
+  </script>
+  <script src="http://js.indexww.com/ht/ls-scripps.js" type="text/javascript">
+  </script>
+  <script src="http://cdn.gigya.com/JS/socialize.js?apikey=3_Vstt7Zpmd0yMcuvT3s56RZuF1CU7IkBgcni4jzx28fjUmb0QQP2TLqXeOwNoQmnS" type="text/javascript">
+  </script>
+  <script src="http://img.food.com/fd/v1/js/core.min.js?v=114" type="text/javascript">
+  </script>
+  <script src="//assets.adobedtm.com/076e416a6caa07234c15d9bd371ee9e19eef88d3/satelliteLib-bcf5f78965434ee359ed8599c3c4e330702525b7.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   mdManager = typeof mdManager !== 'undefined' ? mdManager : new MetaDataManager();
+        mdManager.addParameter("AdKey1", "");
+        mdManager.addParameter("AdKey2", "");
+        mdManager.addParameter("CategoryDspName", "RECIPES");
+        mdManager.addParameter("Classification", "ALL_CATEGORIES,RECIPES,FOODCOM");
+        mdManager.addParameter("SctnDspName", "ALL_CATEGORIES");
+        mdManager.addParameter("Site", "FOODCOM");
+        mdManager.addParameter("type", "ALL_CATEGORIES");
+        mdManager.addParameter("UniqueId", "102-0-MAIN");
+        mdManager.addParameter("Subdomain", "");
+        mdManager.addParameter("Url", "http://www.food.com/topics");
+        mdManager.addParameter("Title", "All Categories By Title : Letter 123 : : Food.com");
+        mdManager.addParameter("Version", "beta");
+        mdManager.addParameter("Site Tier", "direct");
+        mdManager.addParameter("DeliveryChannel", (FD && FD.viewports && FD.viewports.viewport().label) || null);
+  </script>
+  <!-- Include Page Data JS Configuration -->
+  <script type="text/javascript">
+   // creates the FD and FD.Page namespace
+    if (typeof FD == 'undefined') { FD = {}; }
+    if (!FD.Page) { FD.Page = {}; }
+
+    // initialize the page configuration
+    (function() {
+
+        // set up SNI object
+        if (typeof SNI == 'undefined') { SNI = {}; }
+        $.extend(true, SNI, {
+            Config: {
+                name: 'FOODCOM',
+                domain: 'http://www.food.com',
+                imgDomain: 'http://img.food.com',
+                aimDomain: 'http://aim.food.com',
+                shareDomain: 'http://share.food.com',
+                cookieDomain: '.food.com',
+                Video: {
+                    fallbackSiteSectionId: '953690', // Unique for each site and each environment
+                    networkId: '191701', // Shared across all Scripps properties
+                    nielsen: {
+                        apid: 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX'
+                    },
+                    playerUrl: {
+                        base: 'http://www.player.video.snidigital.com/vpc/1/6',
+                        css: 'http://www.player.video.snidigital.com/vpc/1/6/css/sni-video.min.css',
+                        skin: 'http://www.player.video.snidigital.com/vpc/1/6/skins/sni-default/sni-default.json',
+                        layout: 'http://www.player.video.snidigital.com/vpc/1/6/skins/sni-default/layout-no-embed.xml'
+                    }
+                }
+            },
+            Community: {
+                xUrlPre: '',
+                aimDomain: 'http://aim.food.com',
+                ur3Domain: 'http://share.food.com',
+                ssoController: 'http://www.scrippscontroller.com/sso/checkcontrollercookie.html',
+
+                UR: {
+                    initialized: true,
+                    noAIM: true,
+
+                    // moved userInfo parameters to FD.Session.init()
+
+                    shareServerUrl: 'http://share.food.com',
+                    globalLoginURL: 'http://www.food.com/login',
+                    globalLogoutBaseUrl: 'http://share.food.com/redirectors/logout_redirector.jsp',
+                    globalRegistrationURL: 'http://www.food.com/login',
+                    globalRegistrationLiteURL: 'http://www.food.com/login',
+                    globalPrivateProfileUrl: 'http://www.food.com/user',
+                    globalUserSettingsUrl: 'http://www.food.com/user',
+                    imageServerUrl: 'http://img.food.com',
+                    previewUrl: 'null'
+                }
+            }
+        });
+
+        // initialize the core components
+        FD.Session.init({
+            MetaData: {
+                environment: 'production',
+                deliveryChannel: FD.viewports.viewport().label,
+                pageType: 'ALL_CATEGORIES',
+                gigyaMode: FD.Util.isGigyaEnabled()
+            },
+
+            environment: 'production',
+            serverURL:'http://www.food.com',
+            imgServerURL:'http://img.food.com',
+            secureServerURL:'https://api.food.com',
+            shareServerURL: 'http://share.food.com',
+            aimServerURL: 'http://aim.food.com',
+            ssoControllerURL: 'http://www.scrippscontroller.com/sso/checkcontrollercookie.html',
+            apiServerURL: 'http://www.food.com',
+            RecipeBoxApiURL: 'http://recipes.food.com',
+            RecipeBoxWrapperURL: 'http://www.food.com'+'/services/mobile/recipebox/wrap-rb',
+            groceryListURL: 'http://recipes.food.com/shopping-list',
+            newsletterURL: 'http://mynewsletters.scrippsnetworks.com/?mode=subscribe&nlbrand=foodcom&source=0000_FC_HEADER',
+            adServer: 'adsremote.scrippsnetworks.com',
+            ctiURL: 'http://cti.w55c.net/ct/ct-db44eb055e234032a827dbac431ef7e9.js',
+            reCaptcha: '6LdYrfASAAAAAD4ciUco6uTHK6sQ3s9hjoyppvNc',
+            gigyaURL: 'http://cdn.gigya.com/JS/socialize.js?apikey=3_Vstt7Zpmd0yMcuvT3s56RZuF1CU7IkBgcni4jzx28fjUmb0QQP2TLqXeOwNoQmnS',
+            defaultAvatarURL: 'http://img.sndimg.com/food/image/upload/w_45,h_45,q_100,c_thumb/v1/fdc/img/placeholder/avatar.jpg',
+            cookieDomain: '.food.com',
+            reviewSubmissionURL: 'http://www.food.com/services/mobile/recipe/review/submit',
+            IS: { FB: { id: '293868454060703' } },
+
+            Video: {
+
+            },
+
+            SocialUploader: {
+                apiKey: 'A6x6UxJTDSEenRnl6jrIsz',
+                preSubmitUrl: "/rzfoodservices/web/photo-upload/{assetType}/presubmit",
+                submitUrl: "/rzfoodservices/web/photo-upload/{assetType}/submit",
+                triggerClass: 'add-pictures',
+                pickOptions: {
+                    multiple: true
+                },
+                storeOptions: {
+                    path: null,
+                    transId: null
+                },
+                cloudinaryPathPrefix: '',
+                cloudinaryAvatarPathPrefix: '/food_avatar',
+                cloudinaryImgBasePath: 'img.sndimg.com/food',
+                cloudinaryUrl: 'http://img.sndimg.com/food/image/upload',
+                cloudinaryV1: '/v1/img',
+                cloudinaryFullBucket: '/v1/fdc'
+            },
+
+            useShortUrl: true
+
+            
+        });
+
+    }());
+
+    // Google Analytics
+    var g_adkeyword="All Categories By Title : Letter 123 : : Food.com";
+    var g_aduniqueid = '';
+    var g_recipesource= '';
+  </script>
+  <!--[if lt IE 9]>
+<script src="http://img.food.com/js/html5shiv.js"></script>
+<![endif]-->
+  <style>
+   body {
+        background-image: none;
+    }
+    .fd-logo .ie-logo {
+        display: none;
+    }
+  </style>
+ </head>
+ <body>
+  <div class="fd-site-wrapper">
+   <!-- header -->
+   <div class="ad-wrap ">
+    <div class="fd-ad fd-leaderboard" data-dfp="loaded" data-dfp-type="dfp_leaderboard" id="dfp_leaderboard">
+    </div>
+   </div>
+   <a name="top">
+   </a>
+   <div class="fd-header-wrap analytic-box" data-module="globalHeader">
+    <div class="navbar navbar-default navbar-static-top" id="fdc-navbar" role="navigation">
+     <div class="container-fluid">
+      <div class="navbar-header">
+       <button class="navbar-toggle pull-left" data-target="#fd-menu-main" type="button">
+        <span class="sr-only">
+         Toggle navigation
+        </span>
+        <i class="icon-fdc-burger">
+        </i>
+       </button>
+       <div id="fd-logo">
+        <div class="fd-logo">
+         <object data="http://img.food.com/fdc/img/logo/FDC-logo.svg" height="100%" title="Food.com: The most complete collection of free recipes on the Internet, trusted by home chefs throughout the world." type="image/svg+xml" width="100%">
+          <a class="ie-logo" href="http://www.dev1-food.com">
+           <img alt="Food.com: The most complete collection of free recipes on the Internet, trusted by home chefs throughout the world." height="100%" src="http://img.food.com/fdc/img/logo/FDC-logo-header.png" width="100%"/>
+          </a>
+         </object>
+         <a class="ie-logo" href="http://www.dev1-food.com">
+          <img alt="Food.com - Home of the Home Chef" height="100%" src="http://img.food.com/fdc/img/logo/FDC-logo-header.png" width="100%"/>
+         </a>
+        </div>
+       </div>
+       <ul class="nav-links">
+        <li class="nav-item-search">
+         <button class="navbar-toggle nav-search" data-align-menu="none" data-target="#fd-menu-search" type="button">
+          <i class="icon-fdc-search">
+          </i>
+          <span class="btn-text hidden-xs">
+           Find a recipe
+          </span>
+         </button>
+        </li>
+        <!-- Authenticated User -->
+        <li class="nav-item-auth">
+         <button class="navbar-toggle fd-user-btn" data-align-menu="right" data-target="#fd-menu-auth" type="button">
+          <span class="fd-avatar">
+           <img alt="generic user avatar" data-src="http://share.test1-recipezaar.com/skins/main/images/profilephotolookup/111_square.gif" src="http://img-nonprod.sndimg.com/food/image/upload/fl_progressive,e_brightness:15,w_200,h_200,c_fill,q_92/v1/dev1/fdc/img/placeholder/fdc-generic-avatar.jpg"/>
+          </span>
+          <span class="btn-text fd-greet hidden-xs">
+           Hi, [user]
+          </span>
+          <i class="icon-fdc-navigate-down hidden-xs">
+          </i>
+         </button>
+        </li>
+        <!-- Unauthenticated User -->
+        <li class="nav-item-unauth">
+         <button class="navbar-toggle fd-user-icon-btn" data-align-menu="right" data-target="#fd-menu-noauth" type="button">
+          <i class="icon-fdc-profile">
+          </i>
+         </button>
+        </li>
+        <!-- Sign Up -->
+        <li class="nav-item-unauth-signup">
+         <button class="navbar-link fd-sup-btn sso-sign-up" id="fd-signup-btn" type="button">
+          <span>
+           Sign Up
+          </span>
+         </button>
+        </li>
+        <!-- Login -->
+        <li class="nav-item-unauth-login">
+         <button class="navbar-link fd-log-btn sso-login" id="fd-login-btn" type="button">
+          <span>
+           Log In
+          </span>
+         </button>
+        </li>
+        <!-- RecipeBox -->
+        <li class="nav-item-rb">
+         <form action="http://recipes.food.com" class="rb-recipe-box-form">
+          <button class="navbar-link btn fd-rb-btn" id="fd-recipe-box-btn" type="submit">
+           <i class="icon-fdc-recipe-box">
+           </i>
+          </button>
+         </form>
+         <form action="http://recipes.food.com/grocery-list" class="rb-grocery-list-form">
+          <button class="navbar-link btn fd-gl-btn" id="fd-grocery-list-btn" type="submit">
+           <i class="icon-fdc-grocery-list">
+           </i>
+          </button>
+         </form>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- /header -->
+   <!-- Message Banner -->
+   <div class="fd-container-full container-fluid pushdown-message hidden analytic-box" data-module="shinnyBanner">
+    <div class="fd-container container-fluid">
+     <p>
+      Stumped for dinner? Get our life-saving Dinner Daily newsletter. You (and your stomach) can thank us later!
+     </p>
+     <button class="close close-pushdown-message">
+      <i class="icon-fdc-close">
+      </i>
+     </button>
+    </div>
+    <div class="fd-container container-fluid fd-email-signup">
+     <input class="fd-email-input" placeholder="your@email.com" type="text"/>
+     <button class="btn btn-emphasis fd-email-signup-submit">
+      Sign up
+     </button>
+    </div>
+    <span class="invalid-email-message">
+    </span>
+   </div>
+   <!-- Brandscape Container -->
+   <div id="dfp_pushdown_brandscape">
+   </div>
+   <!-- Brandscape Container -->
+   <div class="breadcrumbs">
+    <a href="http://www.food.com">
+     <i class="icon-fdc-arrow-left">
+     </i>
+     Home
+    </a>
+   </div>
+   <h2>
+    Browse All Categories
+   </h2>
+   <div class="container-fluid fd-container">
+    <script type="application/ld+json">
+     {"@context":"http://schema.org","@type":"ItemList","mainEntityOfPage":{"@type":"CollectionPage","@id":"http://www.food.com/topics"},"itemListElement":[{"@type":"ListItem","position":1,"url":"http://www.food.com/topic/3-steps-or-less-breakfast"},{"@type":"ListItem","position":2,"url":"http://www.food.com/topic/3-steps-or-less-desserts"},{"@type":"ListItem","position":3,"url":"http://www.food.com/topic/3-steps-or-less-kid-friendly"},{"@type":"ListItem","position":4,"url":"http://www.food.com/topic/3-steps-or-less-main-dish"},{"@type":"ListItem","position":5,"url":"http://www.food.com/topic/3-steps-or-less-one-dish-meal"},{"@type":"ListItem","position":6,"url":"http://www.food.com/topic/3-steps-or-less-pasta"},{"@type":"ListItem","position":7,"url":"http://www.food.com/topic/3-steps-or-less-salads"},{"@type":"ListItem","position":8,"url":"http://www.food.com/topic/3-steps-or-less-side-dishes"}]}
+    </script>
+    <div class="topic-index-content">
+     <section class="letter-index">
+      <ul>
+       <li class="selected">
+        <span>
+         123
+        </span>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/a">
+         A
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/b">
+         B
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/c">
+         C
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/d">
+         D
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/e">
+         E
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/f">
+         F
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/g">
+         G
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/h">
+         H
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/i">
+         I
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/j">
+         J
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/k">
+         K
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/l">
+         L
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/m">
+         M
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/n">
+         N
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/o">
+         O
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/p">
+         P
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/q">
+         Q
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/r">
+         R
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/s">
+         S
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/t">
+         T
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/u">
+         U
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/v">
+         V
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/w">
+         W
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/x">
+         X
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/y">
+         Y
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topics/z">
+         Z
+        </a>
+       </li>
+      </ul>
+     </section>
+     <section class="topic-index-items">
+      <ul>
+       <li>
+        <a href="http://www.food.com/topic/3-steps-or-less-breakfast">
+         3 Steps Or Less Breakfast
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topic/3-steps-or-less-desserts">
+         3 Steps Or Less Desserts
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topic/3-steps-or-less-kid-friendly">
+         3 Steps Or Less Kid-Friendly
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topic/3-steps-or-less-main-dish">
+         3 Steps Or Less Main Dish
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topic/3-steps-or-less-one-dish-meal">
+         3 Steps Or Less One-Dish Meal
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topic/3-steps-or-less-pasta">
+         3 Steps Or Less Pasta
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topic/3-steps-or-less-salads">
+         3 Steps Or Less Salads
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topic/3-steps-or-less-side-dishes">
+         3 Steps Or Less Side Dishes
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topic/3-steps-or-less-soups">
+         3 Steps Or Less Soups
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topic/30-minute-chicken">
+         30-Minute Chicken
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topic/4th-of-july-desserts">
+         4th of July Dessert
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topic/5-ingredients-or-less-breakfast">
+         5 Ingredients Or Less Breakfast
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topic/5-ingredients-or-less-desserts">
+         5 Ingredients Or Less Dessert
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topic/5-ingredients-or-less-kid-friendly">
+         5 Ingredients Or Less Kid-Friendly
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topic/5-ingredients-or-less-main-dish">
+         5 Ingredients Or Less Main Dish
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topic/5-ingredients-or-less-one-dish-meal">
+         5 Ingredients Or Less One-Dish Meal
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topic/5-ingredients-or-less-pasta">
+         5 Ingredients Or Less Pasta
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topic/5-ingredients-or-less-salads">
+         5 Ingredients Or Less Salads
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topic/5-ingredients-or-less-side-dishes">
+         5 Ingredients Or Less Side Dishes
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/topic/5-ingredients-or-less-soups">
+         5 Ingredients Or Less Soups
+        </a>
+       </li>
+      </ul>
+     </section>
+    </div>
+    <aside class="fd-ad">
+     <div class="dfp-bigbox">
+      <div class="dfp-ad-wrap">
+       <div class="dfp" data-dfp-type="dfp_bigbox">
+       </div>
+       <span class="ad-label">
+        Advertisement
+       </span>
+      </div>
+     </div>
+    </aside>
+   </div>
+  </div>
+  <div class="fd-overlay">
+  </div>
+  <!-- footer -->
+  <script src="http://statics.scrippsnetworks.com/wrapper/js/socialupload_widget.min.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   //$(function () {
+
+(function($){$(function(){log("...DOM Ready (Gigya Events"),FD.subscribe("fd.session.loginVerified",function(){log("...login verified"),setTimeout(function(){FD.Page.loginRedirectUrl?window.location=FD.Page.loginRedirectUrl:window.location.reload()},200)}),FD.subscribe("fd.session.logoutVerified",function(){log("...login verified"),setTimeout(function(){window.location.reload()},200)})})})(jQuery);
+
+
+// DTM
+
+if(typeof _satellite != 'undefined') {_satellite.pageBottom();}
+
+
+// adds the CTI library to the page
+
+(function (d) {var h;var s = d.createElement('script');s.type = 'text/javascript';s.async = true;s.src = FD.Config.ctiURL;h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(document);
+
+
+// set Omniture parameters
+
+if (!SNI.Omniture) { SNI.Omniture = {}; }
+
+SNI.Omniture.pageType = FD.Config.MetaData.pageType;
+
+if(typeof SniAds === "object") { SniAdsConfig.adSlots[0].mapping.small = [300,250]; SniAdsConfig.adSlots[0].mapping.medium = [300,250]; }
+
+try { if(typeof SniAds === "object") SniAds.init({ breakpoints: FD.viewports.getSniAdBreakpoints() }); } catch(e) { log('=== SNI Ad Library Error! ==='); log(e); }
+
+  
+
+//});
+  </script>
+  <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="share_modal" role="dialog" tabindex="-1">
+   <div class="modal-dialog">
+    <div class="modal-content share">
+     <div class="modal-header">
+      <button class="close" data-dismiss="modal" type="button">
+       <span aria-hidden="true">
+        ×
+       </span>
+       <span class="sr-only">
+        Close
+       </span>
+      </button>
+      <label class="modal-title">
+       Share:
+      </label>
+      <h2 class="modal-title">
+       Food.com
+      </h2>
+     </div>
+     <div class="modal-body">
+      <div class="list-group list-group-white list-group-center">
+       <a class="list-group-item social-share" data-network="pinterest" href="#">
+        <i class="icon-fdc-pinterest">
+        </i>
+        Pinterest
+       </a>
+       <a class="list-group-item social-share" data-network="facebook" href="#">
+        <i class="icon-fdc-facebook">
+        </i>
+        Facebook
+       </a>
+       <a class="list-group-item social-share" data-network="twitter" href="#">
+        <i class="icon-fdc-twitter">
+        </i>
+        Twitter
+       </a>
+       <a class="list-group-item social-share" data-network="gplus" href="#">
+        <i class="icon-fdc-google">
+        </i>
+        Google+
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- New DFP Ad Slots -->
+  <div id="dfp_utility1">
+  </div>
+  <div id="dfp_utility2">
+  </div>
+  <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modal_recipebox" role="dialog" tabindex="-1">
+   <div class="modal-dialog">
+    <div class="modal-content share">
+     <div class="modal-header">
+      <button class="close" data-dismiss="modal" type="button">
+       <span aria-hidden="true">
+        ×
+       </span>
+       <span class="sr-only">
+        Close
+       </span>
+      </button>
+      <h4 class="modal-title">
+       Add to Recipe Box
+      </h4>
+      <p>
+       Please select a folder
+      </p>
+     </div>
+     <div class="modal-body">
+      <div class="loading">
+       <i class="icon-fdc-loading fa-spin">
+       </i>
+      </div>
+      <div class="list-group list-hide">
+      </div>
+      <input class="amount folder-name" name="folder-name" placeholder="Add a New Folder" type="text" value=""/>
+      <span class="unit unit-bottom">
+       <a class="recipe-box-add-new-folder" data-folder-name-class="folder-name" data-recipe-id="" href="#">
+        +
+       </a>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"1b55c6690d","agent":"","beacon":"bam.nr-data.net","applicationTime":28,"applicationID":"4170511","transactionName":"Y1FaN0tQXhBVUUJdW1obaxNLWF4Ed11YQEZbWFQGSx5EDERbVUcUHHN9NxA=","queueTime":0}
+  </script>
+  <!-- menus -->
+  <div class="fd-menus">
+   <!-- SITE MENU -->
+   <section class="fd-menu fd-menu-site" id="fd-menu-main">
+    <div class="fd-menu-inner">
+     <div class="fd-menu-toolbar">
+      <button class="btn fd-menu-close btn-over-dark">
+       <i class="icon-fdc-arrow-left">
+       </i>
+       <span>
+        back
+       </span>
+      </button>
+     </div>
+     <ul class="nav navbar-nav">
+      <li class="navbar-lead">
+       <a data-clicktrack="true" href="http://www.food.com/ideas/quick-and-easy-summer-dinners-6558">
+        <div class="asset-label">
+         Featured
+        </div>
+        <div class="asset-feature">
+         16 Quick &amp; Easy Summer Dinners
+        </div>
+       </a>
+      </li>
+      <li>
+       <a data-clicktrack="true" href="http://www.food.com">
+        Home
+       </a>
+      </li>
+      <li>
+       <a data-clicktrack="true" href="http://www.food.com/recipe">
+        Recipes
+       </a>
+      </li>
+      <li>
+       <a data-clicktrack="true" href="http://www.food.com/photo-gallery">
+        Photo Galleries
+       </a>
+      </li>
+      <li>
+       <a data-clicktrack="true" href="http://www.food.com/videos/all-videos-20">
+        Videos
+       </a>
+      </li>
+      <li>
+       <a data-clicktrack="true" href="http://www.food.com/how-to">
+        How-Tos
+       </a>
+      </li>
+      <li>
+       <a data-clicktrack="true" href="http://www.food.com/topics">
+        All Categories
+       </a>
+      </li>
+      <li class="navbar-footer">
+       <div class="asset-label more-food">
+        More Food.com
+       </div>
+       <ul>
+        <li>
+         <a data-clicktrack="true" href="http://mynewsletters.scrippsnetworks.com/?mode=subscribe&amp;nlbrand=foodcom&amp;source=0000_FC_HEADER">
+          Newsletters
+         </a>
+        </li>
+        <li>
+         <a data-clicktrack="true" href="http://www.food.com/how-to/about-us-31">
+          About Us
+         </a>
+        </li>
+        <li>
+         <a href="http://www.food.com/html-sitemap">
+          Site Map
+         </a>
+        </li>
+        <li>
+         <a data-clicktrack="true" href="http://www.food.com/feedback">
+          Contact Us
+         </a>
+        </li>
+       </ul>
+       <div class="fd-navbar-tools">
+        <dl>
+         <dd>
+          <a class="icon-fdc-facebook" data-clicktrack="true" href="http://www.facebook.com/Food.com" target="_blank">
+          </a>
+         </dd>
+         <dd>
+          <a class="icon-fdc-pinterest" data-clicktrack="true" href="http://pinterest.com/fooddotcom/" target="_blank">
+          </a>
+         </dd>
+         <dd>
+          <a class="icon-fdc-twitter" data-clicktrack="true" href="https://twitter.com/fooddotcom" target="_blank">
+          </a>
+         </dd>
+         <dd>
+          <a class="icon-fdc-google" data-clicktrack="true" href="https://plus.google.com/117908044835237955765/posts" target="_blank">
+          </a>
+         </dd>
+         <dd>
+          <a class="icon-fdc-instagram" data-clicktrack="true" href="http://instagram.com/fooddotcom" target="_blank">
+          </a>
+         </dd>
+         <dd>
+          <a class="icon-fdc-email" href="http://mynewsletters.scrippsnetworks.com/?mode=subscribe&amp;nlbrand=foodcom&amp;source=0000_FC_HEADER">
+          </a>
+         </dd>
+        </dl>
+       </div>
+       <div class="fd-legal">
+        <p>
+         <span class="fns">
+          Food Network Sites
+         </span>
+         © 2017
+         <a data-clicktrack="true" href="http://www.scrippsnetworks.com" rel="Scripps Networks">
+          Scripps Networks
+         </a>
+         , LLC.
+         <br/>
+         All Rights Reserved.
+        </p>
+        <ul>
+         <li>
+          <a data-clicktrack="true" href="http://www.scrippsnetworksdigital.com" target="_blank">
+           Advertise With Us
+          </a>
+         </li>
+         <li>
+          <a data-clicktrack="true" href="http://info.evidon.com/pub_info/1212?v=1&amp;nt=1&amp;nw=false" id="_bapw-link" target="_blank">
+           <img id="_bapw-icon" src="http://c.betrad.com/pub/icon1.png"/>
+           <span>
+            AdChoices
+           </span>
+          </a>
+         </li>
+         <li>
+          <a data-clicktrack="true" href="http://www.scrippsnetworks.com/privacy.aspx" target="_blank">
+           Privacy Policy
+          </a>
+         </li>
+         <li>
+          <a data-clicktrack="true" href="http://www.scrippsnetworks.com/terms.aspx" rel="gf-legal-1" target="_blank">
+           Terms of Use
+          </a>
+         </li>
+        </ul>
+       </div>
+      </li>
+     </ul>
+    </div>
+   </section>
+   <!-- ./SITE MENU -->
+   <!-- USER MENU -->
+   <section class="fd-menu fd-menu-right" id="fd-menu-auth">
+    <div class="fd-menu-inner">
+     <div class="fd-menu-toolbar">
+      <button class="btn fd-menu-close btn-over-dark">
+       <i class="icon-fdc-arrow-left">
+       </i>
+       <span>
+        back
+       </span>
+      </button>
+     </div>
+     <ul class="nav navbar-nav">
+      <li class="navbar-lead fd-menu-greeting">
+       <a href="http://www.food.com/user/">
+        Hi, [user greeting]
+       </a>
+      </li>
+      <li>
+       <a href="http://www.food.com/user/">
+        Profile
+       </a>
+      </li>
+      <li>
+       <a href="http://recipes.food.com">
+        Recipe Box
+       </a>
+      </li>
+      <li>
+       <a href="http://recipes.food.com/shopping-list">
+        Grocery List
+       </a>
+      </li>
+      <li>
+       <a class="hidden-xs" href="http://www.food.com/mail">
+        Inbox
+       </a>
+      </li>
+      <li>
+       <a href="http://www.food.com/upload/recipe">
+        Add a Recipe
+       </a>
+      </li>
+      <li>
+       <a href="http://www.food.com/user/settings">
+        Account Settings
+       </a>
+      </li>
+      <li>
+       <a class="sso-logout" href="http://share.food.com/redirectors/logout_redirector.jsp?DEST_URL=">
+        Log Out
+       </a>
+      </li>
+      <li class="fd-no-session sso-login">
+       <a href="http://www.food.com/login?DEST_URL=">
+        Log In
+       </a>
+      </li>
+      <li class="fd-no-session sso-sign-up">
+       <a href="http://www.food.com/login?DEST_URL=">
+        Sign Up
+       </a>
+      </li>
+     </ul>
+    </div>
+   </section>
+   <!-- ./USER MENU -->
+   <!-- USER LOGIN MENU -->
+   <section class="fd-menu fd-menu-right" id="fd-menu-noauth">
+    <div class="fd-menu-inner">
+     <div class="fd-menu-toolbar">
+      <button class="btn fd-menu-close btn-over-dark">
+       <i class="icon-fdc-arrow-left">
+       </i>
+       <span>
+        back
+       </span>
+      </button>
+     </div>
+     <ul class="nav navbar-nav">
+      <li class="fd-no-session fd-sso-item">
+       <a class="sso-login" href="/login?dest">
+        Log In
+       </a>
+      </li>
+      <li class="fd-no-session fd-sso-item">
+       <a class="sso-sign-up" href="/signup?dest">
+        Sign Up
+       </a>
+      </li>
+     </ul>
+    </div>
+   </section>
+   <!-- ./USER LOGIN MENU -->
+   <!-- SEARCH MODULE -->
+   <section class="fd-menu" id="fd-menu-search">
+    <div class="fd-menu-inner">
+     <div class="search-panel">
+      <div class="fd-container fd-menu-toolbar">
+       <button class="btn fd-menu-close btn-over-dark">
+        <i class="icon-fdc-arrow-left">
+        </i>
+        <span>
+         back
+        </span>
+       </button>
+      </div>
+      <div class="fd-container search-box-spacer">
+       <div class="search-box">
+        <div class="search-box-wrap">
+         <div class="search-items-content search-box-content">
+          <div class="search-items search-box-items">
+           <ul class="search-items-list">
+            <li class="inputItem">
+             <input id="search-input" placeholder="Find a recipe" type="text"/>
+            </li>
+           </ul>
+          </div>
+         </div>
+         <div class="search-tools">
+          <button class="search-box-clear" tabindex="-1" type="button">
+           <span>
+            clear
+           </span>
+           <i class="icon-fdc-close" title="Clear All Items">
+           </i>
+          </button>
+          <div class="btn btn-icon search-button">
+           <i class="icon-fdc-search" title="Find a Recipe">
+           </i>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="fd-container search-menu-content">
+       <div class="search-items-content search-filter-content hidden" data-has-context="1" data-list-name="filter by" id="search-filters">
+        <div class="search-items search-filter-items">
+         <ul class="search-items-list search-filter-items-list">
+         </ul>
+        </div>
+       </div>
+       <div class="search-items-content search-suggest-content hidden" data-has-context="0" data-list-name="related searches" id="search-related">
+        <div class="search-items search-suggest-items">
+         <ul class="search-items-list search-suggest-items-list">
+         </ul>
+        </div>
+       </div>
+       <div class="search-items-content search-popular-content hidden" data-has-context="0" data-list-name="trending" id="search-trending">
+        <div class="search-items search-popular-items">
+         <ul class="search-items-list search-popular-items-list">
+         </ul>
+        </div>
+       </div>
+       <div class="search-items-content search-previous-content hidden" data-has-context="0" data-list-name="your-recent-searches" id="search-previous">
+        <div class="search-items search-previous-items">
+         <ul class="search-items-list search-previous-items-list">
+         </ul>
+        </div>
+       </div>
+       <div class="search-items-content search-recipe-content hidden" data-has-context="0" data-list-name="recently viewed" id="search-recipes">
+        <div class="search-items search-recipe-items">
+         <ul class="search-items-list search-recipe-items-list">
+         </ul>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="container-fluid search-module-results">
+      <header>
+       <div class="search-results-heading">
+       </div>
+       <div class="combo magic-buttons">
+        <select>
+         <option data-sort="recommended" selected="selected">
+          Recommended
+         </option>
+         <option data-sort="mostPopular">
+          Popular
+         </option>
+         <option data-sort="quickAndEasy">
+          Quick &amp; Easy
+         </option>
+         <option data-sort="healthy">
+          Healthy
+         </option>
+        </select>
+        <ul>
+         <li class="hover" data-sort="recommend">
+          Recommended
+         </li>
+         <li data-sort="mostPopular">
+          Most Popular
+         </li>
+         <li data-sort="quickAndEasy">
+          Quick &amp; Easy
+         </li>
+         <li data-sort="healthy">
+          Healthy
+         </li>
+        </ul>
+       </div>
+      </header>
+      <div class="search-results fd-container content-stream">
+      </div>
+     </div>
+    </div>
+    <div class="search-autosuggest drop-list" style="display: none; ">
+     <ul class="search-suggest-list">
+     </ul>
+    </div>
+   </section>
+   <!-- ./SEARCH MODULE -->
+   <!-- STICKY SHARE MODULE -->
+   <section class="fd-menu" id="sticky-share-module" style="display: none;">
+    <div class="fd-menu-inner">
+     <div class="fd-share-tools global-share">
+      <a class="pinterest social-share" data-clicktrack="true" data-network="pinterest" href="">
+       <i class="icon-fdc-pinterest">
+       </i>
+      </a>
+      <a class="facebook social-share" data-clicktrack="true" data-network="facebook" href="">
+       <i class="icon-fdc-facebook">
+       </i>
+      </a>
+      <a class="email social-share" data-clicktrack="true" data-network="sendEmail" data-popup-id="#email" href="mailto:?subject=&amp;body=" title="Share via Email">
+       <i class="icon-fdc-email" title="Email">
+       </i>
+      </a>
+     </div>
+    </div>
+   </section>
+   <!-- ./STICKY SHARE MODULE -->
+  </div>
+  <script class="autosuggest-template" id="autosuggestItem" type="text/html-template">
+   {{? !it.url }}
+        <li>{{=it.title}}</li>
+    {{?}}
+    {{? it.url }}
+        <li class="autosuggest-asset {{=(it.hasLabel ? 'label' : '')}}" title="{{=it.title}}" data-record-type="{{=it.record_type}}" data-url="{{=it.url}}">
+            <a href="{{=it.url}}?ic1=suggestedAsset%7C{{=it.searchTerm}}" tabindex="-1">
+                {{=it.title}}
+                <div class="item-photo">
+                    <div class="item-photo-wrap">
+                        <img src="{{=it.photoUrl || 'http://img.food.com/fdc/img/FDC_share-logo.png'}}" alt="{{=it.title}}" data-crop-mode="fill" data-target=".item-photo" />
+                    </div>
+                </div>
+            </a>
+        </li>
+    {{?}}
+  </script>
+  <!-- ./menus -->
+  <script class="tile-template" id="tile-recipe" type="text/html-template">
+   <div class="fd-tile fd-recipe {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-ribbon">
+                    <div class="fd-ribbon-tail tail-white"></div>
+                </div>
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img src="{{=it.photoUrl}}" /></a>
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                        <div class="author">
+                            <span class="avatar">
+                                <a href="{{=it.userProfileUrl}}"><img src="{{=it.userAvatarUrl}}" alt="{{=it.displayName}}" /></a>
+                            </span>
+                            <span class="name">By <a href="{{=it.userProfileUrl}}">{{=it.displayName}}</a></span>
+                        </div>
+                        <div class="meta-data">
+                            <div class="fd-rating">
+                                <div class="five-star">
+                                    <span class="fd-rating-percent" style="width:{{=it.percentRating}};"></span>
+                                </div>
+                                <span>({{=it.ratingCount}})</span>
+                            </div>
+                            <div class="cook-time"><i class='icon-fdc-clock'></i> {{=it.totalTime}}</div>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                <div class="tools">
+                    <a class="icon-fdc-save-to-recipe-box rb-open" data-recipe-id="{{=it.id}}" title="Add to Recipe Box"></a>
+                    <a class="icon-fdc-add-to-grocery-list grocery-list" data-recipe-id="{{=it.id}}" title="Add to Grocery List"></a>
+                    <a class="icon-fdc-share" data-recipe-id="{{=it.id}}" data-message="{{=it.title}}" data-title="{{=it.title}}" data-image="{{=it.photoUrl}}" data-url="{{=it.url}}" data-target="#share_modal" data-toggle="modal" title="Share"></a>
+                </div>
+                -->
+            </div>
+        </div>
+  </script>
+  <script class="tile-template" id="tile-topic" type="text/html-template">
+   <div class="fd-tile fd-topic {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    {{? it.photoUrl }}
+                        <img src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                    {{?}}
+                </div>
+
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+                <ul class="related-links">
+                    <li><a href="{{=it.itemUrl}}">{{=it.itemText}}</a></li>
+                </ul>
+            </div>
+        </div>
+  </script>
+  <script class="tile-template" id="tile-list" type="text/html-template">
+   <div class="fd-tile fd-list" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title">{{=it.title}}</h2>
+                    </div>
+                </div>
+                <ul class="topics related-links">
+                    <li><a href="{{=it.itemUrl}}">{{=it.itemText}}</a></li>
+                </ul>
+            </div>
+        </div>
+  </script>
+  <script class="tile-template" id="tile-photo" type="text/html-template">
+   <div class="fd-tile fd-topic {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </script>
+  <script class="tile-template" id="tile-review" type="text/html-template">
+   <article itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <h5><a href="{{=it.url}}">{{=it.title}}</a></h5>
+        <div class="fd-rating">
+            <div class="five-star">
+                <span class="fd-rating-percent" style="width: {{=it.rating}}"></span>
+
+                <p style="display: none;" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                    <meta itemprop="worstRating" content = "1"/>
+                    <span itemprop="ratingValue" style="display:none"></span>
+                    <span itemprop="bestRating" style="display:none">5</span>
+                </p>
+
+            </div>
+        </div>
+        <small class="date">{{=it.date}}</small>
+        <p itemprop="description">{{=it.review}}</p>
+    </article>
+  </script>
+  <script class="tile-template" id="tile-collection" type="text/html-template">
+   <div class="fd-tile fd-gallery {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.photoUrl}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </script>
+  <script class="tile-template" id="tile-video" type="text/html-template">
+   <div class="fd-tile fd-video {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="sponsored" style="display: none;">
+                    <span class="sr-only">Sponsored by {{=it.sponsor}}</span>
+                    {{=it.sponsor}}
+                </div>
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">Video</span>
+                        Video
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</h2>
+                        <div class="author">
+                            <span class="name">By <a href="http://www.food.com/user/{{=it.userId}}">{{=it.displayName}}</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </script>
+  <script class="tile-template" id="tile-ingredient" type="text/html-template">
+   <div class="fd-tile fd-ingredient {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </script>
+  <script class="tile-template" id="tile-user" type="text/html-template">
+   <div class="fd-tile fd-user {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.blurPhotoUrl}}" data-blur="1000" data-target=".fd-img-wrap" data-quality="92" alt="{{=it.displayName}}">
+                </div>
+                <div class="tile-content">
+                    <div class="author">
+                        <span class="avatar">
+                            <a href="{{=it.url}}"><img src="{{=it.userAvatarUrl}}"></a>
+                        </span>
+                        <span class="name"><a href="{{=it.url}}">{{=it.displayName}}</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </script>
+  <script class="tile-template tmpl-metadata" type="text/html-template">
+   <span class="asset-count ">{{=it.itemCount}} {{=it.itemType}}</span>
+  </script>
+  <script class="tile-template" id="tile-howto" type="text/html-template">
+   <div class="fd-tile fd-how-to {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img src="{{=it.photoUrl}}"></a>
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </script>
+  <script class="tile-template" id="tile-article" type="text/html-template">
+   <div class="fd-tile fd-article {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img src="{{=it.photoUrl}}"></a>
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </script>
+  <script class="tile-template" id="tile-html" type="text/html-template">
+   {{=it.html}}
+  </script>
+  <script class="tile-template" id="tile-editorial" type="text/html-template">
+   <div class="fd-tile fd-editorial fd-tile-cta {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                        <div class="description">{{=it.description}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="fd-tile-footer">
+                <button>Create an Account</button>
+            </div>
+        </div>
+  </script>
+  <script class="tile-template" id="tile-rb-recipe" type="text/html-template">
+   <div class="fd-tile fd-recipe {{=it.noPhoto}} {{=it.noUser}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img src="{{=it.photoUrl}}" alt="{{=it.title}}" /></a>
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                        <div class="author">
+                            <span class="avatar">
+                                <a href="{{=it.userProfileUrl}}"><img src="{{=it.userAvatarUrl}}" alt="{{=it.displayName}}" /></a>
+                            </span>
+                            <span class="name">By <a href="{{=it.userProfileUrl}}">{{=it.displayName}}</a></span>
+                        </div>
+                        <div class="authorNoLink"><span class="name">By {{=it.displayName}}</span></div>
+                    </div>
+                </div>
+                <div class="tools">
+                    <a class="icon-fdc-save-to-recipe-box rb-open" data-recipe-id="{{=it.id}}" title="Add to Recipe Box"></a>
+                    <a class="icon-fdc-add-to-grocery-list grocery-list" data-recipe-id="{{=it.id}}" title="Add to Grocery List"></a>
+                    <a class="icon-fdc-share" data-recipe-id="{{=it.id}}" data-message="" data-title="{{=it.title}}" data-image="{{=it.photoUrl}}" data-url="{{=it.url}}" data-target="#share_modal" data-toggle="modal" title="Share"></a>
+                </div>
+            </div>
+        </div>
+  </script>
+  <script class="tile-template" id="tile-message" type="text/html-template">
+   <div class="fd-tile tile-error {{=it.type}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title">{{=it.text}}</h2>
+                        {{? it.description }}
+                        <p class="description">{{=it.description}}</p>
+                        {{?}}
+                        <div class="cta">
+                            <div class="asset-count"><i class="{{=it.iconClass}}"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </script>
+  <!-- /footer -->
+ </body>
+</html>
+

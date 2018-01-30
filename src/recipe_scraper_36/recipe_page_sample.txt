@@ -1,0 +1,1809 @@
+line 456 for this one
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#">
+ <head>
+  <script>
+   if (typeof SNI_COMMUNITY_SERVICES == 'undefined') {
+        SNI_COMMUNITY_SERVICES = {};
+    }
+    SNI_COMMUNITY_SERVICES.SITE_NAME = "fooddotcom";
+    SNI_COMMUNITY_SERVICES.SITE_CODE = "fdc";
+  </script>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-type"/>
+  <meta content="Weeknight Desserts recipes recipies recipe,weeknight_desserts,weeknight_desserts,weeknight_desserts" name="keywords"/>
+  <meta content="Find all Weeknight Desserts recipes. Become a member, post a recipe and get free nutritional analysis of the dish on Food.com" name="description"/>
+  <meta content="weeknight_desserts" name="sailthru.tags"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="app-id=418971697, affiliate-data=ct=fd-smart-banner&amp;pt=260410" name="apple-itunes-app"/>
+  <meta content="293868454060703" property="fb:app_id"/>
+  <meta content="118337671518735" property="fb:pages"/>
+  <meta content="website" property="og:type"/>
+  <meta content="Weeknight Desserts Recipes - Food.com" property="og:title"/>
+  <meta content="http://www.food.com/topic/weeknight-desserts" property="og:url"/>
+  <meta content="Find all Weeknight Desserts recipes. Become a member, post a recipe and get free nutritional analysis of the dish on Food.com" property="og:description"/>
+  <meta content="http://img.food.com/fdc/img/FDC_share-logo.png" property="og:image"/>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1039.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);
+  </script>
+  <title>
+   Weeknight Desserts Recipes - Food.com
+  </title>
+  <link href="http://img.food.com/fdc/img/FDC_share-logo.png" rel="image_src"/>
+  <link href="http://img.food.com/fdc/img/ico/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+  <link href="http://img.food.com/fdc/mobile/icons/touch-icon-iphone.png" rel="touch-icon"/>
+  <link href="http://img.food.com/fdc/mobile/icons/touch-icon-ipad.png" rel="touch-icon" sizes="76x76"/>
+  <link href="http://img.food.com/fdc/mobile/icons/touch-icon-ipad@2x.png" rel="touch-icon" sizes="120x120"/>
+  <link href="http://img.food.com/fdc/mobile/icons/touch-icon-iphone@3x.png" rel="touch-icon" sizes="152x152"/>
+  <link href="http://img.food.com/fdc/mobile/icons/touch-icon-iphone@2x.png" rel="touch-icon-precomposed"/>
+  <link href="http://www.food.com/topic/weeknight-desserts" rel="canonical"/>
+  <link href="http://www.food.com/topic/weeknight-desserts?pn=2" rel="next"/>
+  <link href="https://plus.google.com/117908044835237955765" rel="publisher"/>
+  <link href="http://img.food.com/fd/css/bootstrap.min.css?v=114" rel="stylesheet" type="text/css"/>
+  <link href="http://img.food.com/fd/v1/css/fd.min.css?v=114" rel="stylesheet" type="text/css"/>
+  <link href="http://img.food.com/fd/css/pages/collection.min.css?v=114" rel="stylesheet" type="text/css"/>
+  <style type="text/css">
+  </style>
+  <script>
+   window.__gigyaConf = {
+        defaultRegScreenSet: "FDC-LoginReg",
+        defaultMobileRegScreenSet: "FDC-LoginReg",
+        enabledProviders:'facebook,twitter,instagram,google,yahoo',
+        sessionExpiration: 31536000
+    };
+  </script>
+  <script src="http://img.food.com/fd/v1/js/lib-bundle.min.js?v=114" type="text/javascript">
+  </script>
+  <script src="http://code.adsales.snidigital.com/conf/ads-config.min.js" type="text/javascript">
+  </script>
+  <script src="http://code.adsales.snidigital.com/lib/2/sni-ads.min.js" type="text/javascript">
+  </script>
+  <script src="http://js.indexww.com/ht/ls-scripps.js" type="text/javascript">
+  </script>
+  <script src="http://cdn.gigya.com/JS/socialize.js?apikey=3_Vstt7Zpmd0yMcuvT3s56RZuF1CU7IkBgcni4jzx28fjUmb0QQP2TLqXeOwNoQmnS" type="text/javascript">
+  </script>
+  <script src="http://img.food.com/fd/v1/js/core.min.js?v=114" type="text/javascript">
+  </script>
+  <script src="//assets.adobedtm.com/076e416a6caa07234c15d9bd371ee9e19eef88d3/satelliteLib-bcf5f78965434ee359ed8599c3c4e330702525b7.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   mdManager = typeof mdManager !== 'undefined' ? mdManager : new MetaDataManager();
+        mdManager.addParameter("adkey1", "DESSERT");
+        mdManager.addParameter("adkey2", "");
+        mdManager.addParameter("CategoryDspName", "RECIPES");
+        mdManager.addParameter("Classification", "WEEKNIGHT-DESSERTS,RECIPES,FOODCOM");
+        mdManager.addParameter("keywordids", "1209");
+        mdManager.addParameter("keywords", "weeknight_desserts");
+        mdManager.addParameter("SctnDspName", "WEEKNIGHT-DESSERTS");
+        mdManager.addParameter("Site", "FOODCOM");
+        mdManager.addParameter("Sponsorship", "");
+        mdManager.addParameter("type", "TOPIC");
+        mdManager.addParameter("UniqueId", "26-1209-MAIN");
+        mdManager.addParameter("Subdomain", "");
+        mdManager.addParameter("Url", "http://www.food.com/topic/weeknight-desserts");
+        mdManager.addParameter("Title", "Weeknight Desserts Recipes - Food.com");
+        mdManager.addParameter("Version", "beta");
+        mdManager.addParameter("Site Tier", "direct");
+        mdManager.addParameter("DeliveryChannel", (FD && FD.viewports && FD.viewports.viewport().label) || null);
+  </script>
+  <!-- Include Page Data JS Configuration -->
+  <script type="text/javascript">
+   // creates the FD and FD.Page namespace
+    if (typeof FD == 'undefined') { FD = {}; }
+    if (!FD.Page) { FD.Page = {}; }
+
+    // initialize the page configuration
+    (function() {
+
+        // set up SNI object
+        if (typeof SNI == 'undefined') { SNI = {}; }
+        $.extend(true, SNI, {
+            Config: {
+                name: 'FOODCOM',
+                domain: 'http://www.food.com',
+                imgDomain: 'http://img.food.com',
+                aimDomain: 'http://aim.food.com',
+                shareDomain: 'http://share.food.com',
+                cookieDomain: '.food.com',
+                Video: {
+                    fallbackSiteSectionId: '953690', // Unique for each site and each environment
+                    networkId: '191701', // Shared across all Scripps properties
+                    nielsen: {
+                        apid: 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXX'
+                    },
+                    playerUrl: {
+                        base: 'http://www.player.video.snidigital.com/vpc/1/6',
+                        css: 'http://www.player.video.snidigital.com/vpc/1/6/css/sni-video.min.css',
+                        skin: 'http://www.player.video.snidigital.com/vpc/1/6/skins/sni-default/sni-default.json',
+                        layout: 'http://www.player.video.snidigital.com/vpc/1/6/skins/sni-default/layout-no-embed.xml'
+                    }
+                }
+            },
+            Community: {
+                xUrlPre: '',
+                aimDomain: 'http://aim.food.com',
+                ur3Domain: 'http://share.food.com',
+                ssoController: 'http://www.scrippscontroller.com/sso/checkcontrollercookie.html',
+
+                UR: {
+                    initialized: true,
+                    noAIM: true,
+
+                    // moved userInfo parameters to FD.Session.init()
+
+                    shareServerUrl: 'http://share.food.com',
+                    globalLoginURL: 'http://www.food.com/login',
+                    globalLogoutBaseUrl: 'http://share.food.com/redirectors/logout_redirector.jsp',
+                    globalRegistrationURL: 'http://www.food.com/login',
+                    globalRegistrationLiteURL: 'http://www.food.com/login',
+                    globalPrivateProfileUrl: 'http://www.food.com/user',
+                    globalUserSettingsUrl: 'http://www.food.com/user',
+                    imageServerUrl: 'http://img.food.com',
+                    previewUrl: 'null'
+                }
+            }
+        });
+
+        // initialize the core components
+        FD.Session.init({
+            MetaData: {
+                environment: 'production',
+                deliveryChannel: FD.viewports.viewport().label,
+                pageType: 'TOPIC',
+                gigyaMode: FD.Util.isGigyaEnabled()
+            },
+
+            environment: 'production',
+            serverURL:'http://www.food.com',
+            imgServerURL:'http://img.food.com',
+            secureServerURL:'https://api.food.com',
+            shareServerURL: 'http://share.food.com',
+            aimServerURL: 'http://aim.food.com',
+            ssoControllerURL: 'http://www.scrippscontroller.com/sso/checkcontrollercookie.html',
+            apiServerURL: 'http://www.food.com',
+            RecipeBoxApiURL: 'http://recipes.food.com',
+            RecipeBoxWrapperURL: 'http://www.food.com'+'/services/mobile/recipebox/wrap-rb',
+            groceryListURL: 'http://recipes.food.com/shopping-list',
+            newsletterURL: 'http://mynewsletters.scrippsnetworks.com/?mode=subscribe&nlbrand=foodcom&source=0000_FC_HEADER',
+            adServer: 'adsremote.scrippsnetworks.com',
+            ctiURL: 'http://cti.w55c.net/ct/ct-db44eb055e234032a827dbac431ef7e9.js',
+            reCaptcha: '6LdYrfASAAAAAD4ciUco6uTHK6sQ3s9hjoyppvNc',
+            gigyaURL: 'http://cdn.gigya.com/JS/socialize.js?apikey=3_Vstt7Zpmd0yMcuvT3s56RZuF1CU7IkBgcni4jzx28fjUmb0QQP2TLqXeOwNoQmnS',
+            defaultAvatarURL: 'http://img.sndimg.com/food/image/upload/w_45,h_45,q_100,c_thumb/v1/fdc/img/placeholder/avatar.jpg',
+            cookieDomain: '.food.com',
+            reviewSubmissionURL: 'http://www.food.com/services/mobile/recipe/review/submit',
+            IS: { FB: { id: '293868454060703' } },
+
+            Video: {
+
+            },
+
+            SocialUploader: {
+                apiKey: 'A6x6UxJTDSEenRnl6jrIsz',
+                preSubmitUrl: "/rzfoodservices/web/photo-upload/{assetType}/presubmit",
+                submitUrl: "/rzfoodservices/web/photo-upload/{assetType}/submit",
+                triggerClass: 'add-pictures',
+                pickOptions: {
+                    multiple: true
+                },
+                storeOptions: {
+                    path: null,
+                    transId: null
+                },
+                cloudinaryPathPrefix: '',
+                cloudinaryAvatarPathPrefix: '/food_avatar',
+                cloudinaryImgBasePath: 'img.sndimg.com/food',
+                cloudinaryUrl: 'http://img.sndimg.com/food/image/upload',
+                cloudinaryV1: '/v1/img',
+                cloudinaryFullBucket: '/v1/fdc'
+            },
+
+            useShortUrl: true
+
+            
+        });
+
+    }());
+
+    // Google Analytics
+    var g_adkeyword="Weeknight Desserts Recipes - Food.com";
+    var g_aduniqueid = '';
+    var g_recipesource= '';
+  </script>
+  <!--[if lt IE 9]>
+<script src="http://img.food.com/js/html5shiv.js"></script>
+<![endif]-->
+  <style>
+   body {
+        background-image: none;
+    }
+    .fd-logo .ie-logo {
+        display: none;
+    }
+  </style>
+ </head>
+ <body>
+  <div class="fd-site-wrapper">
+   <!-- header -->
+   <div class="ad-wrap ">
+    <div class="fd-ad fd-leaderboard" data-dfp="loaded" data-dfp-type="dfp_leaderboard" id="dfp_leaderboard">
+    </div>
+   </div>
+   <a name="top">
+   </a>
+   <div class="fd-header-wrap analytic-box" data-module="globalHeader">
+    <div class="navbar navbar-default navbar-static-top" id="fdc-navbar" role="navigation">
+     <div class="container-fluid">
+      <div class="navbar-header">
+       <button class="navbar-toggle pull-left" data-target="#fd-menu-main" type="button">
+        <span class="sr-only">
+         Toggle navigation
+        </span>
+        <i class="icon-fdc-burger">
+        </i>
+       </button>
+       <div id="fd-logo">
+        <div class="fd-logo">
+         <object data="http://img.food.com/fdc/img/logo/FDC-logo.svg" height="100%" title="Food.com: The most complete collection of free recipes on the Internet, trusted by home chefs throughout the world." type="image/svg+xml" width="100%">
+          <a class="ie-logo" href="http://www.dev1-food.com">
+           <img alt="Food.com: The most complete collection of free recipes on the Internet, trusted by home chefs throughout the world." height="100%" src="http://img.food.com/fdc/img/logo/FDC-logo-header.png" width="100%"/>
+          </a>
+         </object>
+         <a class="ie-logo" href="http://www.dev1-food.com">
+          <img alt="Food.com - Home of the Home Chef" height="100%" src="http://img.food.com/fdc/img/logo/FDC-logo-header.png" width="100%"/>
+         </a>
+        </div>
+       </div>
+       <ul class="nav-links">
+        <li class="nav-item-search">
+         <button class="navbar-toggle nav-search" data-align-menu="none" data-target="#fd-menu-search" type="button">
+          <i class="icon-fdc-search">
+          </i>
+          <span class="btn-text hidden-xs">
+           Find a recipe
+          </span>
+         </button>
+        </li>
+        <!-- Authenticated User -->
+        <li class="nav-item-auth">
+         <button class="navbar-toggle fd-user-btn" data-align-menu="right" data-target="#fd-menu-auth" type="button">
+          <span class="fd-avatar">
+           <img alt="generic user avatar" data-src="http://share.test1-recipezaar.com/skins/main/images/profilephotolookup/111_square.gif" src="http://img-nonprod.sndimg.com/food/image/upload/fl_progressive,e_brightness:15,w_200,h_200,c_fill,q_92/v1/dev1/fdc/img/placeholder/fdc-generic-avatar.jpg"/>
+          </span>
+          <span class="btn-text fd-greet hidden-xs">
+           Hi, [user]
+          </span>
+          <i class="icon-fdc-navigate-down hidden-xs">
+          </i>
+         </button>
+        </li>
+        <!-- Unauthenticated User -->
+        <li class="nav-item-unauth">
+         <button class="navbar-toggle fd-user-icon-btn" data-align-menu="right" data-target="#fd-menu-noauth" type="button">
+          <i class="icon-fdc-profile">
+          </i>
+         </button>
+        </li>
+        <!-- Sign Up -->
+        <li class="nav-item-unauth-signup">
+         <button class="navbar-link fd-sup-btn sso-sign-up" id="fd-signup-btn" type="button">
+          <span>
+           Sign Up
+          </span>
+         </button>
+        </li>
+        <!-- Login -->
+        <li class="nav-item-unauth-login">
+         <button class="navbar-link fd-log-btn sso-login" id="fd-login-btn" type="button">
+          <span>
+           Log In
+          </span>
+         </button>
+        </li>
+        <!-- RecipeBox -->
+        <li class="nav-item-rb">
+         <form action="http://recipes.food.com" class="rb-recipe-box-form">
+          <button class="navbar-link btn fd-rb-btn" id="fd-recipe-box-btn" type="submit">
+           <i class="icon-fdc-recipe-box">
+           </i>
+          </button>
+         </form>
+         <form action="http://recipes.food.com/grocery-list" class="rb-grocery-list-form">
+          <button class="navbar-link btn fd-gl-btn" id="fd-grocery-list-btn" type="submit">
+           <i class="icon-fdc-grocery-list">
+           </i>
+          </button>
+         </form>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- /header -->
+   <!-- Message Banner -->
+   <div class="fd-container-full container-fluid pushdown-message hidden analytic-box" data-module="shinnyBanner">
+    <div class="fd-container container-fluid">
+     <p>
+      Stumped for dinner? Get our life-saving Dinner Daily newsletter. You (and your stomach) can thank us later!
+     </p>
+     <button class="close close-pushdown-message">
+      <i class="icon-fdc-close">
+      </i>
+     </button>
+    </div>
+    <div class="fd-container container-fluid fd-email-signup">
+     <input class="fd-email-input" placeholder="your@email.com" type="text"/>
+     <button class="btn btn-emphasis fd-email-signup-submit">
+      Sign up
+     </button>
+    </div>
+    <span class="invalid-email-message">
+    </span>
+   </div>
+   <!-- Brandscape Container -->
+   <div id="dfp_pushdown_brandscape">
+   </div>
+   <!-- Brandscape Container -->
+   <div class="fd-container-full container fluid">
+    <div class="fd-container container-fluid">
+     <header class="topic">
+      <div class="sponsored">
+       <div id="dfp_logo">
+       </div>
+      </div>
+      <div class="breadcrumbs">
+       <!--
+                <a>All Beans<i class='icon-fdc-arrow-right'></i></a>
+                -->
+      </div>
+      <h1>
+       Weeknight Desserts
+      </h1>
+      <section class="subhead">
+       <!--
+                <div class="breadcrumbs">
+                    <a>All Beans<i class='icon-fdc-arrow-right'></i></a>
+                </div>
+                -->
+      </section>
+      <div class="tools">
+       <dl class="social-tools">
+        <!-- DEFERRED
+                    <dd class="favorite">
+                        <a class="icon-fdc-heart-outline"></a>
+                    </dd>
+                    -->
+        <dt>
+         <a class="icon-fdc-share" data-popup-id="#topic_share" data-target="#topic_share" data-toggle="modal" href="#" title="Share">
+         </a>
+        </dt>
+        <dd>
+         <a class="icon-fdc-pinterest share-topic" data-network="pinterest" href="#" title="Share on Pinterest">
+         </a>
+        </dd>
+        <dd>
+         <a class="icon-fdc-facebook share-topic" data-network="facebook" href="#" title="Share on Facebook">
+         </a>
+        </dd>
+        <dd>
+         <a class="icon-fdc-twitter share-topic" data-network="twitter" href="#" title="Share on Twitter">
+         </a>
+        </dd>
+        <dd>
+         <a class="icon-fdc-google share-topic" data-network="gplus" href="#" title="Share on Google+">
+         </a>
+        </dd>
+        <!-- DEFERRED
+                    <dd>
+                        <a class="icon-fdc-email"></a>
+                    </dd>
+                    -->
+       </dl>
+       <dl class="util-tools">
+        <dt class="filter">
+         <button class="btn-icon filters" data-target="#fd-filters" data-toggle="collapse" id="show-filters" title="Advanced Search">
+          <span class="sr-only">
+           Toggle Search Filters
+          </span>
+          <i class="icon-fdc-filters">
+          </i>
+         </button>
+        </dt>
+        <div class="combo magic-buttons">
+         <select>
+          <option data-href="http://www.food.com/topic/weeknight-desserts">
+           Recommended
+          </option>
+          <option data-href="http://www.food.com/topic/weeknight-desserts/popular">
+           Popular
+          </option>
+          <option data-href="http://www.food.com/topic/weeknight-desserts/quick-and-easy">
+           Quick &amp; Easy
+          </option>
+          <option data-href="http://www.food.com/topic/weeknight-desserts/healthy">
+           Healthy
+          </option>
+         </select>
+         <ul>
+          <li class="hover ">
+           Recommended
+          </li>
+          <li class="">
+           <a href="http://www.food.com/topic/weeknight-desserts/popular">
+            Popular
+           </a>
+          </li>
+          <li class="">
+           <a href="http://www.food.com/topic/weeknight-desserts/quick-and-easy">
+            Quick &amp; Easy
+           </a>
+          </li>
+          <li class="">
+           <a href="http://www.food.com/topic/weeknight-desserts/healthy">
+            Healthy
+           </a>
+          </li>
+         </ul>
+        </div>
+       </dl>
+      </div>
+     </header>
+    </div>
+   </div>
+   <div class="container-fluid fd-container">
+    <!DOCTYPE html>
+    <script type="application/ld+json">
+     {"@context":"http://schema.org","@type":"ItemList","mainEntityOfPage":{"@type":"CollectionPage","@id":"http://www.food.com/topic/weeknight-desserts"},"itemListElement":[{"@type":"ListItem","position":1,"url":"http://www.food.com/topic/weeknight-desserts"},{"@type":"ListItem","position":2,"url":"http://www.food.com/recipe/dessert-cheese-ball-48490"},{"@type":"ListItem","position":3,"url":"http://www.food.com/recipe/blueberry-dessert-10459"},{"@type":"ListItem","position":4,"url":"http://www.food.com/recipe/basic-dessert-crepes-batter-19097"},{"@type":"ListItem","position":5,"url":"http://www.food.com/recipe/crock-pot-peach-dump-dessert-20287"},{"@type":"ListItem","position":6,"url":"http://www.food.com/recipe/greek-yogurt-dessert-with-honey-and-strawberries-422389"},{"@type":"ListItem","position":7,"url":"http://www.food.com/recipe/snickers-dessert-on-a-diet-37085"},{"@type":"ListItem","position":8,"url":"http://www.food.com/recipe/chocolate-dessert-crepes-19101"}]}
+    </script>
+    <script type="application/ld+json">
+     {"@context":"http://schema.org","@type":"WebPage","breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://www.food.com/topics","name":"All Categories By Title : Letter 123 : : Food.com"}},{"@type":"ListItem","position":2,"item":{"@id":"http://www.food.com/topic/topic/weeknight-desserts","name":"Weeknight Desserts"}}]}}
+    </script>
+    <div class="fd-content">
+     <div class="fd-tile loader">
+      <div class="fd-inner-tile">
+       <div class="tile-content">
+        <i class="icon-fdc-loading fa-spin">
+        </i>
+        <span>
+         Loading...
+        </span>
+       </div>
+      </div>
+     </div>
+    </div>
+    <!-- tile templates >>> -->
+    <script class="tmpl-tile-recipe" type="text/html-template">
+     <div class="fd-tile fd-recipe {{noPhoto}}" data-id="{{type}}-{{id}}" data-url="{{url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-ribbon">
+                    <div class="fd-ribbon-tail tail-white"></div>
+                </div>
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{url}}"><img data-target=".fd-img-wrap" data-src="{{photoUrl}}" /></a>
+                </div>
+                <div class="tile-content">
+                    <!-- <div class="tags" style="display: none;">
+                        <span class="sr-only">{{label}}</span>
+                        {{label}}
+                    </div> -->
+                    <div class="details">
+                        <h2 class="title"><a href="{{url}}">{{title}}</a></h2>
+                        <div class="author">
+                            <span class="avatar">
+                                <a href="{{userUrl}}"><img data-src="{{userAvatarUrl}}" alt="{{displayName}}" /></a>
+                            </span>
+                            <span class="name">By <a href="{{userUrl}}">{{displayName}}</a></span>
+                        </div>
+                        <div class="meta-data">
+                            <div class="fd-rating">
+                                <div class="five-star">
+                                    <span class="fd-rating-percent" style="width:{{percentRating}};"></span>
+                                </div>
+                                <span>({{totalRatings}})</span>
+                            </div>
+                            <div class="cook-time"><i class='icon-fdc-clock'></i> {{totalTime}}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools">
+                    <a class="icon-fdc-save-to-recipe-box rb-open" data-recipe-id="{{id}}" title="Add to Recipe Box"></a>
+                    <a class="icon-fdc-add-to-grocery-list grocery-list" data-recipe-id="{{id}}" title="Add to Grocery List"></a>
+                    <a class="icon-fdc-share" data-recipe-id="{{id}}" data-message="{{title}}" data-title="{{title}}" data-image="{{photoUrl}}" data-url="{{url}}" data-target="#share_modal" data-toggle="modal" title="Share"></a>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script class="tmpl-tile-pro-recipe" type="text/html-template">
+     <div class="fd-tile fd-recipe {{noPhoto}}" data-id="{{type}}-{{id}}" data-url="{{url}}">
+        <div class="fd-inner-tile">
+            <div class="fd-ribbon">
+                <div class="fd-ribbon-tail tail-white"></div>
+            </div>
+            <div class="fd-img-wrap">
+                <div class="img-overlay">&nbsp;</div>
+                <a href="{{url}}"><img data-target=".fd-img-wrap" data-src="{{photoUrl}}" /></a>
+            </div>
+            <div class="tile-content">
+                <div class="details">
+                    <h2 class="title"><a href="{{url}}">{{title}}</a></h2>
+                    <div class="author">
+                        <span class="name">{{displayName}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </script>
+    <script class="tmpl-tile-topic" type="text/html-template">
+     <div class="fd-tile fd-topic {{noPhoto}}" data-id="{{type}}-{{id}}" data-url="{{url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img data-target=".fd-img-wrap" data-src="{{photoUrl}}" alt="{{title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{label}}</span>
+                        {{label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{url}}">{{title}}</a></h2>
+                    </div>
+                </div>
+                <ul class="related-links">
+                    <li><a href="{{itemUrl}}">{{itemText}}</a></li>
+                </ul>
+            </div>
+        </div>
+    </script>
+    <script class="tmpl-tile-list" type="text/html-template">
+     <div class="fd-tile fd-list" data-id="{{type}}-{{id}}" data-url="{{url}}">
+            <div class="fd-inner-tile">
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title">{{title}}</h2>
+                    </div>
+                </div>
+                <ul class="topics related-links">
+                    <li><a href="{{itemUrl}}">{{itemText}}</a></li>
+                </ul>
+            </div>
+        </div>
+    </script>
+    <script class="tmpl-tile-photo" type="text/html-template">
+     <div class="fd-tile fd-topic {{noPhoto}}" data-id="{{type}}-{{id}}" data-url="{{url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img data-target=".fd-img-wrap" data-src="{{photoUrl}}" alt="{{title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title"><a href="{{url}}">{{title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script class="tmpl-tile-review" type="text/html-template">
+     <article itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <h5><a href="{{url}}">{{title}}</a></h5>
+        <div class="fd-rating">
+            <div class="five-star">
+                <span class="fd-rating-percent" style="width: {{rating}}"></span>
+
+                <p style="display: none;" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                    <meta itemprop="worstRating" content = "1"/>
+                    <span itemprop="ratingValue" style="display:none"></span>
+                    <span itemprop="bestRating" style="display:none">5</span>
+                </p>
+
+            </div>
+        </div>
+        <small class="date">{{date}}</small>
+        <p itemprop="description">{{review}}</p>
+    </article>
+    </script>
+    <script class="tmpl-tile-collection tmpl-tile-gallery" type="text/html-template">
+     <div class="fd-tile fd-gallery {{noPhoto}}" data-id="{{type}}-{{id}}" data-url="{{url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img data-target=".fd-img-wrap" data-src="{{photoUrl}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{label}}</span>
+                        {{label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{url}}">{{title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script class="tmpl-tile-video" type="text/html-template">
+     <div class="fd-tile fd-video {{noPhoto}}" data-id="{{type}}-{{id}}" data-url="{{url}}">
+            <div class="fd-inner-tile">
+                <div class="sponsored" style="display: none;">
+                    <span class="sr-only">Sponsored by {{sponsor}}</span>
+                    {{sponsor}}
+                </div>
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img data-target=".fd-img-wrap" data-src="{{photoUrl}}" alt="{{title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">Video</span>
+                        Video
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{url}}">{{title}}</h2>
+                        <div class="author">
+                            <span class="name">By <a href="http://www.food.com/user/{{userId}}">{{displayName}}</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script class="tmpl-tile-sponsor" type="text/html-template">
+    </script>
+    <script class="tmpl-tile-ingredient" type="text/html-template">
+     <div class="fd-tile fd-ingredient {{noPhoto}}" data-id="{{type}}-{{id}}" data-url="{{url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img data-target=".fd-img-wrap" data-src="{{photoUrl}}" alt="{{title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{label}}</span>
+                        {{label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{url}}">{{title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script class="tmpl-tile-user" type="text/html-template">
+     <div class="fd-tile fd-user {{noPhoto}}" data-id="{{type}}-{{id}}" data-url="{{url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img data-src="{{blurPhotoUrl}}" alt="{{displayName}}">
+                </div>
+                <div class="tile-content">
+                    <div class="author">
+                        <span class="avatar">
+                            <a href="{{url}}"><img data-src="{{userAvatarUrl}}"></a>
+                        </span>
+                        <span class="name"><a href="{{url}}">{{displayName}}</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script class="tmpl-metadata" type="text/html-template">
+     <span class="asset-count ">{{itemCount}} {{itemType}}</span>
+    </script>
+    <script class="tmpl-tile-howto" type="text/html-template">
+     <div class="fd-tile fd-how-to {{noPhoto}}" data-id="{{type}}-{{id}}" data-url="{{url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{url}}"><img data-src="{{photoUrl}}"></a>
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{label}}</span>
+                        {{label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{url}}">{{title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script class="tmpl-tile-article" type="text/html-template">
+     <div class="fd-tile fd-article {{noPhoto}}" data-id="{{type}}-{{id}}" data-url="{{url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{url}}"><img data-src="{{photoUrl}}"></a>
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{label}}</span>
+                        {{label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{url}}">{{title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script class="tmpl-tile-editorial" type="text/html-template">
+     {{html}}
+    </script>
+    <script class="tmpl-tile-editorial2" type="text/html-template">
+     <div class="fd-tile fd-editorial fd-tile-cta {{noPhoto}}" data-id="{{type}}-{{id}}" data-url="{{url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img data-src="{{photoUrl}}" alt="{{title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{label}}</span>
+                        {{label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{url}}">{{title}}</a></h2>
+                        <div class="description">{{description}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="fd-tile-footer">
+                <button>Create an Account</button>
+            </div>
+        </div>
+    </script>
+    <script class="tmpl-unknown-type" type="text/html-template">
+     <div class="fd-tile {{noPhoto}}" data-id="{{type}}-{{id}}" data-url="{{url}}">
+    <div class="fd-inner-tile">
+        <div class="tile-content">
+            <div class="details">
+                <h2>{{type}} - {{title}}</h2>
+                <div class="description">{{description}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+    </script>
+    <script class="tmpl-tile-rb-recipe" type="text/html-template">
+     <div class="fd-tile fd-recipe {{noPhoto}} {{noUser}}" data-id="{{type}}-{{id}}" data-url="{{url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{url}}"><img data-target=".fd-img-wrap" data-src="{{photoUrl}}" alt="{{title}}" /></a>
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title"><a href="{{url}}">{{title}}</a></h2>
+                        <div class="author">
+                            <span class="avatar">
+                                <a href="{{userUrl}}"><img data-src="{{userAvatarUrl}}" alt="{{displayName}}" /></a>
+                            </span>
+                            <span class="name">By <a href="{{userUrl}}">{{displayName}}</a></span>
+                        </div>
+                        <div class="authorNoLink"><span class="name">By {{displayName}}</span></div>
+                        
+                    </div>
+                </div>
+                <div class="tools">
+                    <a class="icon-fdc-save-to-recipe-box rb-open" data-recipe-id="{{id}}" title="Add to Recipe Box"></a>
+                    <a class="icon-fdc-add-to-grocery-list grocery-list" data-recipe-id="{{id}}" title="Add to Grocery List"></a>
+                    <a class="icon-fdc-share" data-recipe-id="{{id}}" data-message="" data-title="{{title}}" data-image="{{photoUrl}}" data-url="{{url}}" data-target="#share_modal" data-toggle="modal" title="Share"></a>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script class="tmpl-tile-error" type="text/html-template">
+     <div class="fd-tile fd-error {{noPhoto}}" data-id="{{type}}" data-url="{{url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title">{{title}}</h2>
+                        <p class="description">{{description}}</p>
+                        <div class="cta">
+                            <div class="asset-count"><i class="icon-fdc-arrow-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <!-- <<< tile templates -->
+    <!-- share modals >>> -->
+    <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="share_modal" role="dialog" tabindex="-1">
+     <div class="modal-dialog">
+      <div class="modal-content share">
+       <div class="modal-header">
+        <button class="close" data-clicktrack="true" data-dismiss="modal" rel="Share Modal" type="button">
+         <span aria-hidden="true">
+          ×
+         </span>
+         <span class="sr-only">
+          Close
+         </span>
+        </button>
+        <label class="modal-title">
+         Share this recipe:
+        </label>
+        <h2 class="modal-title">
+         {{title}}
+        </h2>
+       </div>
+       <div class="modal-body">
+        <div class="list-group list-group-white list-group-center">
+         <a class="list-group-item share-recipe" data-clicktrack="true" data-network="pinterest" data-recipe-id="277001" data-share-image="" data-share-message="" data-share-title="" data-share-url="" href="#" rel="Share Modal">
+          <i class="icon-fdc-pinterest">
+          </i>
+          Pinterest
+         </a>
+         <a class="list-group-item share-recipe" data-clicktrack="true" data-network="facebook" data-recipe-id="277001" data-share-image="" data-share-message="" data-share-title="" data-share-url="" href="#" rel="Share Modal">
+          <i class="icon-fdc-facebook">
+          </i>
+          Facebook
+         </a>
+         <a class="list-group-item share-recipe" data-clicktrack="true" data-network="twitter" data-recipe-id="277001" data-share-image="" data-share-message="" data-share-title="" data-share-url="" href="#" rel="Share Modal">
+          <i class="icon-fdc-twitter">
+          </i>
+          Twitter
+         </a>
+         <a class="list-group-item share-recipe" data-clicktrack="true" data-network="gplus" data-recipe-id="277001" data-share-image="" data-share-message="" data-share-title="" data-share-url="" href="#" rel="Share Modal">
+          <i class="icon-fdc-google">
+          </i>
+          Google+
+         </a>
+         <a class="list-group-item email-open" data-clicktrack="true" data-popup-id="#email" data-recipe-id="277001" href="" rel="Share Modal">
+          <i class="icon-fdc-email">
+          </i>
+          Email
+         </a>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modal_no_results" role="dialog" tabindex="-1">
+     <div class="modal-dialog">
+      <div class="modal-content">
+       <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">
+         No Results
+        </h4>
+       </div>
+       <div class="modal-body">
+        Whoops! There are no results for your search
+        <span class="your-search">
+        </span>
+        . Please modify your search and try again.
+       </div>
+       <div class="modal-footer">
+        <button class="btn btn-link" data-dismiss="modal" type="button">
+         Cancel
+        </button>
+        <button class="btn btn-primary" type="submit">
+         Search Again
+        </button>
+       </div>
+      </div>
+     </div>
+    </div>
+    <!-- <<< share modals -->
+    <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="topic_share" role="dialog" tabindex="-1">
+     <div class="modal-dialog">
+      <div class="modal-content share">
+       <div class="modal-header">
+        <button class="close" data-dismiss="modal" type="button">
+         <span aria-hidden="true">
+          ×
+         </span>
+         <span class="sr-only">
+          Close
+         </span>
+        </button>
+        <label class="modal-title">
+         Share:
+        </label>
+        <h2 class="modal-title">
+         Weeknight Desserts
+        </h2>
+       </div>
+       <div class="modal-body">
+        <div class="list-group list-group-white list-group-center">
+         <a class="list-group-item share-topic" data-network="pinterest" href="#">
+          <i class="icon-fdc-pinterest">
+          </i>
+          Pinterest
+         </a>
+         <a class="list-group-item share-topic" data-network="facebook" href="#">
+          <i class="icon-fdc-facebook">
+          </i>
+          Facebook
+         </a>
+         <a class="list-group-item share-topic" data-network="twitter" href="#">
+          <i class="icon-fdc-twitter">
+          </i>
+          Twitter
+         </a>
+         <a class="list-group-item share-topic" data-network="gplus" href="#">
+          <i class="icon-fdc-google">
+          </i>
+          Google+
+         </a>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="fd-overlay">
+  </div>
+  <!-- footer -->
+  <script src="http://statics.scrippsnetworks.com/wrapper/js/socialupload_widget.min.js" type="text/javascript">
+  </script>
+  <script src="http://img.food.com/fd/v1/js/topic.min.js?v=114" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   //$(function () {
+
+(function($){$(function(){log("...DOM Ready (Gigya Events"),FD.subscribe("fd.session.loginVerified",function(){log("...login verified"),setTimeout(function(){FD.Page.loginRedirectUrl?window.location=FD.Page.loginRedirectUrl:window.location.reload()},200)}),FD.subscribe("fd.session.logoutVerified",function(){log("...login verified"),setTimeout(function(){window.location.reload()},200)})})})(jQuery);
+
+
+// DTM
+
+if(typeof _satellite != 'undefined') {_satellite.pageBottom();}
+
+
+// adds the CTI library to the page
+
+(function (d) {var h;var s = d.createElement('script');s.type = 'text/javascript';s.async = true;s.src = FD.Config.ctiURL;h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(document);
+
+
+// set Omniture parameters
+
+if (!SNI.Omniture) { SNI.Omniture = {}; }
+
+SNI.Omniture.pageType = FD.Config.MetaData.pageType;
+
+if(typeof SniAds === "object") { SniAdsConfig.adSlots[0].mapping.small = [300,250]; SniAdsConfig.adSlots[0].mapping.medium = [300,250]; }
+
+try { if(typeof SniAds === "object") SniAds.init({ breakpoints: FD.viewports.getSniAdBreakpoints() }); } catch(e) { log('=== SNI Ad Library Error! ==='); log(e); }
+
+
+
+// show applied filters
+
+FD.Config.AppliedFilters = {
+
+
+};
+
+$(function() { FD.Page.Topic.init('1209','http://www.food.com/topic/weeknight-desserts', ''); });
+
+
+// search results data
+
+var searchResults = {"version":0,"timeoutInSeconds":129600,"hasMore":true,"response":{"totalResultsCount":"7436","parameters":{"numRecords":"10","offset":"0","recordType":"Topic","id":0},"results":[{"record_type":"Topic","record_spec":"Topic-1209","all_category_list":"Weeknight Desserts","main_submit_date":"1421368119","primary_category_name":"Weeknight Desserts","record_url":"http://www.food.com/topic/weeknight-desserts","topic_name":"Weeknight Desserts","num_recipes":"7399","feat_rec_photo_file":"http://img.sndimg.com/food/image/upload/v1/img/recipes/48/49/0/picTVe8Qp.jpg","topic_id":"1209","score":"1.2659266","solr_last_update":"Tue Jul 18 04:30:45 UTC 2017","modtime":"2015-01-16 00:28:39.0"},{"record_type":"Recipe","record_spec":"Recipe-48490","all_category_list":"Weeknight","all_ingredients":"nuts","has_photo":"1","main_description":"I got this recipe from a friend of mine after eating it at a Christmas party. I usually cut back on the chips I stir into the ball and roll the ball in chips instead of nuts. Just personal preference. I also buy regular and chocolate graham crackers and arrange them around the ball for a nice presentation. Enjoy!","main_num_ratings":"51","main_rating_mapping":"5","main_rating_mapping_label":"five-star","main_submit_date":"1039723564","main_title":"Dessert Cheese Ball","main_truncated_title":"Dessert Cheese Ball","main_userid":"48612","main_username":"TrinkDawg","num_steps":"7","primary_category_name":"Spreads","recipe_cooktime":"0","recipe_created_by":"TrinkDawg","recipe_id":"48490","recipe_photo_url":"http://img.sndimg.com/food/image/upload/v1/img/recipes/48/49/0/picTVe8Qp.jpg","recipe_preptime":"180","recipe_sponsorcode":"FC_HOLIDAYS_APPS","recipe_totaltime":"180","recipe_user_first_name":"TrinkDawg","recipe_user_url":"http://www.food.com/user/48612","record_url":"http://www.food.com/recipe/dessert-cheese-ball-48490","user_avatar_url":"http://img.sndimg.com/food/image/upload/w_45,h_45,q_100,c_thumb/v1/fdc/img/placeholder/avatar.jpg","main_rating":"4.59","member_email":"mike.r.trinka@lmco.com","score":"0.52480096","solr_last_update":"Tue Jul 18 04:15:34 UTC 2017","low_views_high_ratings":"12.0","modtime":"2014-03-10 20:31:28.0","latest_modtime":"2002-12-12 20:06:04.0","num_recipe_photos":"4","has_sponsorcode":"1","recipe_loaned_out":"0"},{"record_type":"Recipe","record_spec":"Recipe-10459","all_category_list":"Weeknight","all_ingredients":"cornstarch","has_photo":"1","main_description":"I found this in a Taste of Home Country Cooking Book. What a treat for everyone. I use peaches, strawberries--any fruit I have. Great with ice cream, too.","main_num_ratings":"25","main_rating_mapping":"5","main_rating_mapping_label":"five-star","main_submit_date":"996233779","main_title":"Blueberry Dessert","main_truncated_title":"Blueberry Dessert","main_userid":"6810","main_username":"Ann Arber","num_steps":"9","primary_category_name":"Puddings and Mousses","recipe_cooktime":"60","recipe_created_by":"Ann Arber","recipe_id":"10459","recipe_photo_url":"http://img.sndimg.com/food/image/upload/v1/img/recipes/10/45/9/picPuf7ee.jpg","recipe_preptime":"15","recipe_totaltime":"75","recipe_user_first_name":"Ann","recipe_user_last_name":"Arber","recipe_user_url":"http://www.food.com/user/6810","record_url":"http://www.food.com/recipe/blueberry-dessert-10459","user_avatar_url":"http://img.sndimg.com/food/image/upload/w_45,h_45,q_100,c_thumb/v1/fdc/img/placeholder/avatar.jpg","main_rating":"4.78","member_email":"oldfatfanny@aol.com","score":"0.50477606","solr_last_update":"Tue Jul 18 04:14:59 UTC 2017","low_views_high_ratings":"13.0","modtime":"2015-03-16 22:17:26.0","latest_modtime":"2001-07-27 11:36:19.0","num_recipe_photos":"1","has_sponsorcode":"0","recipe_loaned_out":"0"},{"record_type":"Recipe","record_spec":"Recipe-19097","all_category_list":"Weeknight","all_ingredients":"flour","has_photo":"1","main_description":"This recipe can be used for all your dessert crepes. You can cook them fresh and use them or better yet make a batch, wrap them in plastic, then foil and freeze them for future use. Have wax paper   between the crepes. Dessert fillings will be posted separately.  I say 20 crepes this depends on the size and how thin you pour them.Mine are almost paper thin and about the size of a large side plate","main_num_ratings":"22","main_rating_mapping":"5","main_rating_mapping_label":"five-star","main_submit_date":"1013078645","main_title":"Basic Dessert Crepes Batter","main_truncated_title":"Basic Dessert Crepes Batter","main_userid":"4470","main_username":"Bergy","num_steps":"8","primary_category_name":"Dessert","recipe_cooktime":"80","recipe_created_by":"Bergy","recipe_id":"19097","recipe_photo_url":"http://img.sndimg.com/food/image/upload/v1/img/recipes/19/09/7/picMJfjRV.jpg","recipe_preptime":"10","recipe_totaltime":"90","recipe_user_first_name":"Bergy","recipe_user_url":"http://www.food.com/user/4470","record_url":"http://www.food.com/recipe/basic-dessert-crepes-batter-19097","user_avatar_url":"http://img.sndimg.com/food/image/upload/w_45,h_45,q_100,c_thumb/v1/fdc/img/placeholder/avatar.jpg","main_rating":"4.90476","member_email":"cronberg@sunwave.net","score":"0.41657594","solr_last_update":"Tue Jul 18 04:15:10 UTC 2017","low_views_high_ratings":"13.0","modtime":"2017-02-28 19:19:33.0","latest_modtime":"2002-02-07 10:44:05.0","num_recipe_photos":"3","has_sponsorcode":"0","recipe_loaned_out":"0"},{"record_type":"Recipe","record_spec":"Recipe-20287","all_category_list":"Weeknight","all_ingredients":"vanilla","has_photo":"1","main_description":"A very simple recipe that yields fabulous results! People won\u0027t believe this came out of a crock pot!","main_num_ratings":"96","main_rating_mapping":"5","main_rating_mapping_label":"five-star","main_submit_date":"1014278599","main_title":"Crock Pot Peach Dump Dessert","main_truncated_title":"Crock Pot Peach Dump Dessert","main_userid":"28201","main_username":"yooper","num_steps":"6","primary_category_name":"Dessert","recipe_cooktime":"180","recipe_created_by":"yooper","recipe_id":"20287","recipe_photo_url":"http://img.sndimg.com/food/image/upload/v1/img/recipes/20/28/7/SliJNBLXRkKWbfYPl6Zm_peach%20cake%203.jpg","recipe_preptime":"5","recipe_sponsorcode":"FC_DESSERTS","recipe_totaltime":"185","recipe_user_first_name":"yooper","recipe_user_url":"http://www.food.com/user/28201","record_url":"http://www.food.com/recipe/crock-pot-peach-dump-dessert-20287","user_avatar_url":"http://img.sndimg.com/food/image/upload/w_45,h_45,q_100,c_thumb/v1/fdc/img/placeholder/avatar.jpg","main_rating":"4.57955","member_email":"mkuure@hotmail.com","score":"0.40531063","solr_last_update":"Tue Jul 18 04:15:12 UTC 2017","low_views_high_ratings":"12.0","modtime":"2017-03-21 12:31:28.0","latest_modtime":"2002-02-21 08:03:19.0","num_recipe_photos":"7","has_sponsorcode":"1","recipe_loaned_out":"0"},{"record_type":"Recipe","record_spec":"Recipe-422389","all_category_list":"Weeknight","all_ingredients":"strawberries","has_photo":"1","main_description":"Healthy and low fat.","main_num_ratings":"19","main_rating_mapping":"5","main_rating_mapping_label":"five-star","main_submit_date":"1272704879","main_title":"Greek Yogurt Dessert With Honey and Strawberries","main_truncated_title":"Greek Yogurt Dessert With Honey and Stra...","main_userid":"1072593","main_username":"gailanng","num_steps":"1","primary_category_name":"Lunch","recipe_cooktime":"5","recipe_created_by":"gailanng","recipe_id":"422389","recipe_photo_url":"http://img.sndimg.com/food/image/upload/v1/img/recipes/42/23/89/LNkMxgQlSkOIV4r0fEHl_y1.jpg","recipe_preptime":"5","recipe_sponsorcode":"FC_MOTHERSDAY","recipe_totaltime":"10","recipe_user_url":"http://www.food.com/user/1072593","record_url":"http://www.food.com/recipe/greek-yogurt-dessert-with-honey-and-strawberries-422389","user_avatar_url":"http://img.sndimg.com/food/image/upload/w_45,h_45,q_100,c_thumb/v1/fdc/img/placeholder/avatar.jpg","main_rating":"4.95","member_email":"gailanng@bellsouth.net","score":"0.3317702","solr_last_update":"Tue Jul 18 04:20:08 UTC 2017","low_views_high_ratings":"13.0","modtime":"2017-03-17 19:25:42.0","latest_modtime":"2010-05-01 09:07:59.0","num_recipe_photos":"11","has_sponsorcode":"1","recipe_loaned_out":"0"},{"record_type":"Recipe","record_spec":"Recipe-37085","all_category_list":"Weeknight","all_ingredients":"chunky peanut butter","has_photo":"1","main_description":"No Snickers bars were killed in the making of this recipe. Prep time includes time for cooling.","main_num_ratings":"18","main_rating_mapping":"5","main_rating_mapping_label":"five-star","main_submit_date":"1029261372","main_title":"Snickers Dessert on a Diet","main_truncated_title":"Snickers Dessert on a Diet","main_userid":"35635","main_username":"Pixie","num_steps":"7","primary_category_name":"Frozen","recipe_cooktime":"0","recipe_created_by":"Pixie","recipe_id":"37085","recipe_photo_url":"http://img.sndimg.com/food/image/upload/v1/img/recipes/37/08/5/picLeYqmm.jpg","recipe_preptime":"140","recipe_sponsorcode":"FC_FOODHOLIDAYS","recipe_totaltime":"140","recipe_user_first_name":"*Pixie*","recipe_user_url":"http://www.food.com/user/35635","record_url":"http://www.food.com/recipe/snickers-dessert-on-a-diet-37085","user_avatar_url":"http://img.sndimg.com/food/image/upload/w_45,h_45,q_100,c_thumb/v1/fdc/img/placeholder/avatar.jpg","main_rating":"4.94","member_email":"pixie@coffeerooms.com","score":"0.32597482","solr_last_update":"Tue Jul 18 04:15:28 UTC 2017","low_views_high_ratings":"13.0","modtime":"2013-06-30 22:45:14.0","latest_modtime":"2002-08-13 17:56:12.0","num_recipe_photos":"1","has_sponsorcode":"1","recipe_loaned_out":"0"},{"record_type":"Recipe","record_spec":"Recipe-19101","all_category_list":"Weeknight","all_ingredients":"cocoa","has_photo":"1","main_description":"Use this crepe for an elegant easy dessert. Fill the crepe with whipped cream, fresh strawberries (or other fresh fruit), add some chocolate curls and there you are. Make these in advance - make the batter the night before and have it ready when you want to make them or better yet cook the crepes have wax paper between them, wrap in plastic wrap the foil and freeze them. They are good for 5 months.","main_num_ratings":"10","main_rating_mapping":"5","main_rating_mapping_label":"five-star","main_submit_date":"1013078650","main_title":"Chocolate Dessert Crepes","main_truncated_title":"Chocolate Dessert Crepes","main_userid":"4470","main_username":"Bergy","num_steps":"7","primary_category_name":"Dessert","recipe_cooktime":"80","recipe_created_by":"Bergy","recipe_id":"19101","recipe_photo_url":"http://img.sndimg.com/food/image/upload/v1/img/recipes/19/10/1/picqJTQzW.jpg","recipe_preptime":"10","recipe_sponsorcode":"FC_VALENTINESDAY","recipe_totaltime":"90","recipe_user_first_name":"Bergy","recipe_user_url":"http://www.food.com/user/4470","record_url":"http://www.food.com/recipe/chocolate-dessert-crepes-19101","user_avatar_url":"http://img.sndimg.com/food/image/upload/w_45,h_45,q_100,c_thumb/v1/fdc/img/placeholder/avatar.jpg","main_rating":"5.0","member_email":"cronberg@sunwave.net","score":"0.31848648","solr_last_update":"Tue Jul 18 04:15:10 UTC 2017","low_views_high_ratings":"13.0","modtime":"2016-04-01 11:36:13.0","latest_modtime":"2002-02-07 10:44:10.0","num_recipe_photos":"1","has_sponsorcode":"1","recipe_loaned_out":"0"},{"record_type":"Recipe","record_spec":"Recipe-72794","all_category_list":"Weeknight","all_ingredients":"butter","has_photo":"1","main_description":"This is my favorite dessert.  This recipe came from my boyfriend\u0027s Mom. The cook time listed is actually the approximate freeze time.","main_num_ratings":"8","main_rating_mapping":"5","main_rating_mapping_label":"five-star","main_submit_date":"1065470575","main_title":"Buster Bar Dessert","main_truncated_title":"Buster Bar Dessert","main_userid":"91655","main_username":"Fancy","num_steps":"13","primary_category_name":"Frozen","recipe_cooktime":"90","recipe_created_by":"Fancy","recipe_id":"72794","recipe_photo_url":"http://img.sndimg.com/food/image/upload/v1/img/recipes/72/79/4/picisbIwE.jpg","recipe_preptime":"20","recipe_totaltime":"110","recipe_user_first_name":"*Fancy*","recipe_user_url":"http://www.food.com/user/91655","record_url":"http://www.food.com/recipe/buster-bar-dessert-72794","user_avatar_url":"http://img.sndimg.com/food/image/upload/w_45,h_45,q_100,c_thumb/v1/fdc/img/placeholder/avatar.jpg","main_rating":"5.0","member_email":"nlholm@yahoo.com","score":"0.29217607","solr_last_update":"Tue Jul 18 04:15:59 UTC 2017","low_views_high_ratings":"13.0","modtime":"2016-11-26 02:11:28.0","latest_modtime":"2003-10-06 20:02:55.0","num_recipe_photos":"1","has_sponsorcode":"0","recipe_loaned_out":"0"},{"record_type":"Recipe","record_spec":"Recipe-13840","all_category_list":"Weeknight","all_ingredients":"walnuts","has_photo":"1","main_description":"This dessert is also known as \"Sex in a Pan\". LOL.  It\u0027s so good you\u0027ll want to have seconds. I got it from my good friend Sandra. :)","main_num_ratings":"9","main_rating_mapping":"4","main_rating_mapping_label":"four-star","main_submit_date":"1005070551","main_title":"The Ultimate Chocolate Pudding Dessert","main_truncated_title":"The Ultimate Chocolate Pudding Dessert","main_userid":"21656","main_username":"Carol ","num_steps":"8","primary_category_name":"Puddings and Mousses","recipe_cooktime":"60","recipe_created_by":"Carol ","recipe_id":"13840","recipe_photo_url":"http://img.sndimg.com/food/image/upload/v1/img/recipes/13/84/0/picZydovR.jpg","recipe_preptime":"15","recipe_totaltime":"75","recipe_user_first_name":"Carol","recipe_user_last_name":":)","recipe_user_url":"http://www.food.com/user/21656","record_url":"http://www.food.com/recipe/the-ultimate-chocolate-pudding-dessert-13840","user_avatar_url":"http://img.sndimg.com/food/image/upload/w_45,h_45,q_100,c_thumb/v1/fdc/img/placeholder/avatar.jpg","main_rating":"4.33","member_email":"cjhere4u@comcast.net","score":"0.25500578","solr_last_update":"Tue Jul 18 04:14:57 UTC 2017","low_views_high_ratings":"12.0","modtime":"2010-02-01 03:33:08.0","latest_modtime":"2001-11-06 18:15:51.0","num_recipe_photos":"1","has_sponsorcode":"0","recipe_loaned_out":"0"}],"dymCtxFlag":false},"comscore":"pageview_candidate"};
+
+FD.searchParameters = $.extend({}, (searchResults && searchResults.response && searchResults.response.parameters) || {});
+
+  
+
+//});
+  </script>
+  <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="share_modal" role="dialog" tabindex="-1">
+   <div class="modal-dialog">
+    <div class="modal-content share">
+     <div class="modal-header">
+      <button class="close" data-dismiss="modal" type="button">
+       <span aria-hidden="true">
+        ×
+       </span>
+       <span class="sr-only">
+        Close
+       </span>
+      </button>
+      <label class="modal-title">
+       Share:
+      </label>
+      <h2 class="modal-title">
+       Food.com
+      </h2>
+     </div>
+     <div class="modal-body">
+      <div class="list-group list-group-white list-group-center">
+       <a class="list-group-item social-share" data-network="pinterest" href="#">
+        <i class="icon-fdc-pinterest">
+        </i>
+        Pinterest
+       </a>
+       <a class="list-group-item social-share" data-network="facebook" href="#">
+        <i class="icon-fdc-facebook">
+        </i>
+        Facebook
+       </a>
+       <a class="list-group-item social-share" data-network="twitter" href="#">
+        <i class="icon-fdc-twitter">
+        </i>
+        Twitter
+       </a>
+       <a class="list-group-item social-share" data-network="gplus" href="#">
+        <i class="icon-fdc-google">
+        </i>
+        Google+
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- New DFP Ad Slots -->
+  <div id="dfp_utility1">
+  </div>
+  <div id="dfp_utility2">
+  </div>
+  <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modal_recipebox" role="dialog" tabindex="-1">
+   <div class="modal-dialog">
+    <div class="modal-content share">
+     <div class="modal-header">
+      <button class="close" data-dismiss="modal" type="button">
+       <span aria-hidden="true">
+        ×
+       </span>
+       <span class="sr-only">
+        Close
+       </span>
+      </button>
+      <h4 class="modal-title">
+       Add to Recipe Box
+      </h4>
+      <p>
+       Please select a folder
+      </p>
+     </div>
+     <div class="modal-body">
+      <div class="loading">
+       <i class="icon-fdc-loading fa-spin">
+       </i>
+      </div>
+      <div class="list-group list-hide">
+      </div>
+      <input class="amount folder-name" name="folder-name" placeholder="Add a New Folder" type="text" value=""/>
+      <span class="unit unit-bottom">
+       <a class="recipe-box-add-new-folder" data-folder-name-class="folder-name" data-recipe-id="" href="#">
+        +
+       </a>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"1b55c6690d","agent":"","beacon":"bam.nr-data.net","applicationTime":1348,"applicationID":"4170511","transactionName":"Y1FaN0tQXhBVUUJdW1obaxNLWF4Ed11YQEZbWFQGSx5EDERbVRtPR1hNBEQRGCRxZh8=","queueTime":0}
+  </script>
+  <!-- menus -->
+  <div class="fd-menus">
+   <!-- SITE MENU -->
+   <section class="fd-menu fd-menu-site" id="fd-menu-main">
+    <div class="fd-menu-inner">
+     <div class="fd-menu-toolbar">
+      <button class="btn fd-menu-close btn-over-dark">
+       <i class="icon-fdc-arrow-left">
+       </i>
+       <span>
+        back
+       </span>
+      </button>
+     </div>
+     <ul class="nav navbar-nav">
+      <li class="navbar-lead">
+       <a data-clicktrack="true" href="http://www.food.com/ideas/quick-and-easy-summer-dinners-6558">
+        <div class="asset-label">
+         Featured
+        </div>
+        <div class="asset-feature">
+         16 Quick &amp; Easy Summer Dinners
+        </div>
+       </a>
+      </li>
+      <li>
+       <a data-clicktrack="true" href="http://www.food.com">
+        Home
+       </a>
+      </li>
+      <li>
+       <a data-clicktrack="true" href="http://www.food.com/recipe">
+        Recipes
+       </a>
+      </li>
+      <li>
+       <a data-clicktrack="true" href="http://www.food.com/photo-gallery">
+        Photo Galleries
+       </a>
+      </li>
+      <li>
+       <a data-clicktrack="true" href="http://www.food.com/videos/all-videos-20">
+        Videos
+       </a>
+      </li>
+      <li>
+       <a data-clicktrack="true" href="http://www.food.com/how-to">
+        How-Tos
+       </a>
+      </li>
+      <li>
+       <a data-clicktrack="true" href="http://www.food.com/topics">
+        All Categories
+       </a>
+      </li>
+      <li class="navbar-footer">
+       <div class="asset-label more-food">
+        More Food.com
+       </div>
+       <ul>
+        <li>
+         <a data-clicktrack="true" href="http://mynewsletters.scrippsnetworks.com/?mode=subscribe&amp;nlbrand=foodcom&amp;source=0000_FC_HEADER">
+          Newsletters
+         </a>
+        </li>
+        <li>
+         <a data-clicktrack="true" href="http://www.food.com/how-to/about-us-31">
+          About Us
+         </a>
+        </li>
+        <li>
+         <a href="http://www.food.com/html-sitemap">
+          Site Map
+         </a>
+        </li>
+        <li>
+         <a data-clicktrack="true" href="http://www.food.com/feedback">
+          Contact Us
+         </a>
+        </li>
+       </ul>
+       <div class="fd-navbar-tools">
+        <dl>
+         <dd>
+          <a class="icon-fdc-facebook" data-clicktrack="true" href="http://www.facebook.com/Food.com" target="_blank">
+          </a>
+         </dd>
+         <dd>
+          <a class="icon-fdc-pinterest" data-clicktrack="true" href="http://pinterest.com/fooddotcom/" target="_blank">
+          </a>
+         </dd>
+         <dd>
+          <a class="icon-fdc-twitter" data-clicktrack="true" href="https://twitter.com/fooddotcom" target="_blank">
+          </a>
+         </dd>
+         <dd>
+          <a class="icon-fdc-google" data-clicktrack="true" href="https://plus.google.com/117908044835237955765/posts" target="_blank">
+          </a>
+         </dd>
+         <dd>
+          <a class="icon-fdc-instagram" data-clicktrack="true" href="http://instagram.com/fooddotcom" target="_blank">
+          </a>
+         </dd>
+         <dd>
+          <a class="icon-fdc-email" href="http://mynewsletters.scrippsnetworks.com/?mode=subscribe&amp;nlbrand=foodcom&amp;source=0000_FC_HEADER">
+          </a>
+         </dd>
+        </dl>
+       </div>
+       <div class="fd-legal">
+        <p>
+         <span class="fns">
+          Food Network Sites
+         </span>
+         © 2017
+         <a data-clicktrack="true" href="http://www.scrippsnetworks.com" rel="Scripps Networks">
+          Scripps Networks
+         </a>
+         , LLC.
+         <br/>
+         All Rights Reserved.
+        </p>
+        <ul>
+         <li>
+          <a data-clicktrack="true" href="http://www.scrippsnetworksdigital.com" target="_blank">
+           Advertise With Us
+          </a>
+         </li>
+         <li>
+          <a data-clicktrack="true" href="http://info.evidon.com/pub_info/1212?v=1&amp;nt=1&amp;nw=false" id="_bapw-link" target="_blank">
+           <img id="_bapw-icon" src="http://c.betrad.com/pub/icon1.png"/>
+           <span>
+            AdChoices
+           </span>
+          </a>
+         </li>
+         <li>
+          <a data-clicktrack="true" href="http://www.scrippsnetworks.com/privacy.aspx" target="_blank">
+           Privacy Policy
+          </a>
+         </li>
+         <li>
+          <a data-clicktrack="true" href="http://www.scrippsnetworks.com/terms.aspx" rel="gf-legal-1" target="_blank">
+           Terms of Use
+          </a>
+         </li>
+        </ul>
+       </div>
+      </li>
+     </ul>
+    </div>
+   </section>
+   <!-- ./SITE MENU -->
+   <!-- USER MENU -->
+   <section class="fd-menu fd-menu-right" id="fd-menu-auth">
+    <div class="fd-menu-inner">
+     <div class="fd-menu-toolbar">
+      <button class="btn fd-menu-close btn-over-dark">
+       <i class="icon-fdc-arrow-left">
+       </i>
+       <span>
+        back
+       </span>
+      </button>
+     </div>
+     <ul class="nav navbar-nav">
+      <li class="navbar-lead fd-menu-greeting">
+       <a href="http://www.food.com/user/">
+        Hi, [user greeting]
+       </a>
+      </li>
+      <li>
+       <a href="http://www.food.com/user/">
+        Profile
+       </a>
+      </li>
+      <li>
+       <a href="http://recipes.food.com">
+        Recipe Box
+       </a>
+      </li>
+      <li>
+       <a href="http://recipes.food.com/shopping-list">
+        Grocery List
+       </a>
+      </li>
+      <li>
+       <a class="hidden-xs" href="http://www.food.com/mail">
+        Inbox
+       </a>
+      </li>
+      <li>
+       <a href="http://www.food.com/upload/recipe">
+        Add a Recipe
+       </a>
+      </li>
+      <li>
+       <a href="http://www.food.com/user/settings">
+        Account Settings
+       </a>
+      </li>
+      <li>
+       <a class="sso-logout" href="http://share.food.com/redirectors/logout_redirector.jsp?DEST_URL=">
+        Log Out
+       </a>
+      </li>
+      <li class="fd-no-session sso-login">
+       <a href="http://www.food.com/login?DEST_URL=">
+        Log In
+       </a>
+      </li>
+      <li class="fd-no-session sso-sign-up">
+       <a href="http://www.food.com/login?DEST_URL=">
+        Sign Up
+       </a>
+      </li>
+     </ul>
+    </div>
+   </section>
+   <!-- ./USER MENU -->
+   <!-- USER LOGIN MENU -->
+   <section class="fd-menu fd-menu-right" id="fd-menu-noauth">
+    <div class="fd-menu-inner">
+     <div class="fd-menu-toolbar">
+      <button class="btn fd-menu-close btn-over-dark">
+       <i class="icon-fdc-arrow-left">
+       </i>
+       <span>
+        back
+       </span>
+      </button>
+     </div>
+     <ul class="nav navbar-nav">
+      <li class="fd-no-session fd-sso-item">
+       <a class="sso-login" href="/login?dest">
+        Log In
+       </a>
+      </li>
+      <li class="fd-no-session fd-sso-item">
+       <a class="sso-sign-up" href="/signup?dest">
+        Sign Up
+       </a>
+      </li>
+     </ul>
+    </div>
+   </section>
+   <!-- ./USER LOGIN MENU -->
+   <!-- SEARCH MODULE -->
+   <section class="fd-menu" id="fd-menu-search">
+    <div class="fd-menu-inner">
+     <div class="search-panel">
+      <div class="fd-container fd-menu-toolbar">
+       <button class="btn fd-menu-close btn-over-dark">
+        <i class="icon-fdc-arrow-left">
+        </i>
+        <span>
+         back
+        </span>
+       </button>
+      </div>
+      <div class="fd-container search-box-spacer">
+       <div class="search-box">
+        <div class="search-box-wrap">
+         <div class="search-items-content search-box-content">
+          <div class="search-items search-box-items">
+           <ul class="search-items-list">
+            <li class="inputItem">
+             <input id="search-input" placeholder="Find a recipe" type="text"/>
+            </li>
+           </ul>
+          </div>
+         </div>
+         <div class="search-tools">
+          <button class="search-box-clear" tabindex="-1" type="button">
+           <span>
+            clear
+           </span>
+           <i class="icon-fdc-close" title="Clear All Items">
+           </i>
+          </button>
+          <div class="btn btn-icon search-button">
+           <i class="icon-fdc-search" title="Find a Recipe">
+           </i>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="fd-container search-menu-content">
+       <div class="search-items-content search-filter-content hidden" data-has-context="1" data-list-name="filter by" id="search-filters">
+        <div class="search-items search-filter-items">
+         <ul class="search-items-list search-filter-items-list">
+         </ul>
+        </div>
+       </div>
+       <div class="search-items-content search-suggest-content hidden" data-has-context="0" data-list-name="related searches" id="search-related">
+        <div class="search-items search-suggest-items">
+         <ul class="search-items-list search-suggest-items-list">
+         </ul>
+        </div>
+       </div>
+       <div class="search-items-content search-popular-content hidden" data-has-context="0" data-list-name="trending" id="search-trending">
+        <div class="search-items search-popular-items">
+         <ul class="search-items-list search-popular-items-list">
+         </ul>
+        </div>
+       </div>
+       <div class="search-items-content search-previous-content hidden" data-has-context="0" data-list-name="your-recent-searches" id="search-previous">
+        <div class="search-items search-previous-items">
+         <ul class="search-items-list search-previous-items-list">
+         </ul>
+        </div>
+       </div>
+       <div class="search-items-content search-recipe-content hidden" data-has-context="0" data-list-name="recently viewed" id="search-recipes">
+        <div class="search-items search-recipe-items">
+         <ul class="search-items-list search-recipe-items-list">
+         </ul>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="container-fluid search-module-results">
+      <header>
+       <div class="search-results-heading">
+       </div>
+       <div class="combo magic-buttons">
+        <select>
+         <option data-sort="recommended" selected="selected">
+          Recommended
+         </option>
+         <option data-sort="mostPopular">
+          Popular
+         </option>
+         <option data-sort="quickAndEasy">
+          Quick &amp; Easy
+         </option>
+         <option data-sort="healthy">
+          Healthy
+         </option>
+        </select>
+        <ul>
+         <li class="hover" data-sort="recommend">
+          Recommended
+         </li>
+         <li data-sort="mostPopular">
+          Most Popular
+         </li>
+         <li data-sort="quickAndEasy">
+          Quick &amp; Easy
+         </li>
+         <li data-sort="healthy">
+          Healthy
+         </li>
+        </ul>
+       </div>
+      </header>
+      <div class="search-results fd-container content-stream">
+      </div>
+     </div>
+    </div>
+    <div class="search-autosuggest drop-list" style="display: none; ">
+     <ul class="search-suggest-list">
+     </ul>
+    </div>
+   </section>
+   <!-- ./SEARCH MODULE -->
+   <!-- STICKY SHARE MODULE -->
+   <section class="fd-menu" id="sticky-share-module" style="display: none;">
+    <div class="fd-menu-inner">
+     <div class="fd-share-tools global-share">
+      <a class="pinterest social-share" data-clicktrack="true" data-network="pinterest" href="">
+       <i class="icon-fdc-pinterest">
+       </i>
+      </a>
+      <a class="facebook social-share" data-clicktrack="true" data-network="facebook" href="">
+       <i class="icon-fdc-facebook">
+       </i>
+      </a>
+      <a class="email social-share" data-clicktrack="true" data-network="sendEmail" data-popup-id="#email" href="mailto:?subject=&amp;body=" title="Share via Email">
+       <i class="icon-fdc-email" title="Email">
+       </i>
+      </a>
+     </div>
+    </div>
+   </section>
+   <!-- ./STICKY SHARE MODULE -->
+  </div>
+  <script class="autosuggest-template" id="autosuggestItem" type="text/html-template">
+   {{? !it.url }}
+        <li>{{=it.title}}</li>
+    {{?}}
+    {{? it.url }}
+        <li class="autosuggest-asset {{=(it.hasLabel ? 'label' : '')}}" title="{{=it.title}}" data-record-type="{{=it.record_type}}" data-url="{{=it.url}}">
+            <a href="{{=it.url}}?ic1=suggestedAsset%7C{{=it.searchTerm}}" tabindex="-1">
+                {{=it.title}}
+                <div class="item-photo">
+                    <div class="item-photo-wrap">
+                        <img src="{{=it.photoUrl || 'http://img.food.com/fdc/img/FDC_share-logo.png'}}" alt="{{=it.title}}" data-crop-mode="fill" data-target=".item-photo" />
+                    </div>
+                </div>
+            </a>
+        </li>
+    {{?}}
+  </script>
+  <!-- ./menus -->
+  <script class="tile-template" id="tile-recipe" type="text/html-template">
+   <div class="fd-tile fd-recipe {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-ribbon">
+                    <div class="fd-ribbon-tail tail-white"></div>
+                </div>
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img src="{{=it.photoUrl}}" /></a>
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                        <div class="author">
+                            <span class="avatar">
+                                <a href="{{=it.userProfileUrl}}"><img src="{{=it.userAvatarUrl}}" alt="{{=it.displayName}}" /></a>
+                            </span>
+                            <span class="name">By <a href="{{=it.userProfileUrl}}">{{=it.displayName}}</a></span>
+                        </div>
+                        <div class="meta-data">
+                            <div class="fd-rating">
+                                <div class="five-star">
+                                    <span class="fd-rating-percent" style="width:{{=it.percentRating}};"></span>
+                                </div>
+                                <span>({{=it.ratingCount}})</span>
+                            </div>
+                            <div class="cook-time"><i class='icon-fdc-clock'></i> {{=it.totalTime}}</div>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                <div class="tools">
+                    <a class="icon-fdc-save-to-recipe-box rb-open" data-recipe-id="{{=it.id}}" title="Add to Recipe Box"></a>
+                    <a class="icon-fdc-add-to-grocery-list grocery-list" data-recipe-id="{{=it.id}}" title="Add to Grocery List"></a>
+                    <a class="icon-fdc-share" data-recipe-id="{{=it.id}}" data-message="{{=it.title}}" data-title="{{=it.title}}" data-image="{{=it.photoUrl}}" data-url="{{=it.url}}" data-target="#share_modal" data-toggle="modal" title="Share"></a>
+                </div>
+                -->
+            </div>
+        </div>
+  </script>
+  <script class="tile-template" id="tile-topic" type="text/html-template">
+   <div class="fd-tile fd-topic {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    {{? it.photoUrl }}
+                        <img src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                    {{?}}
+                </div>
+
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+                <ul class="related-links">
+                    <li><a href="{{=it.itemUrl}}">{{=it.itemText}}</a></li>
+                </ul>
+            </div>
+        </div>
+  </script>
+  <script class="tile-template" id="tile-list" type="text/html-template">
+   <div class="fd-tile fd-list" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title">{{=it.title}}</h2>
+                    </div>
+                </div>
+                <ul class="topics related-links">
+                    <li><a href="{{=it.itemUrl}}">{{=it.itemText}}</a></li>
+                </ul>
+            </div>
+        </div>
+  </script>
+  <script class="tile-template" id="tile-photo" type="text/html-template">
+   <div class="fd-tile fd-topic {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </script>
+  <script class="tile-template" id="tile-review" type="text/html-template">
+   <article itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <h5><a href="{{=it.url}}">{{=it.title}}</a></h5>
+        <div class="fd-rating">
+            <div class="five-star">
+                <span class="fd-rating-percent" style="width: {{=it.rating}}"></span>
+
+                <p style="display: none;" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                    <meta itemprop="worstRating" content = "1"/>
+                    <span itemprop="ratingValue" style="display:none"></span>
+                    <span itemprop="bestRating" style="display:none">5</span>
+                </p>
+
+            </div>
+        </div>
+        <small class="date">{{=it.date}}</small>
+        <p itemprop="description">{{=it.review}}</p>
+    </article>
+  </script>
+  <script class="tile-template" id="tile-collection" type="text/html-template">
+   <div class="fd-tile fd-gallery {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.photoUrl}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </script>
+  <script class="tile-template" id="tile-video" type="text/html-template">
+   <div class="fd-tile fd-video {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="sponsored" style="display: none;">
+                    <span class="sr-only">Sponsored by {{=it.sponsor}}</span>
+                    {{=it.sponsor}}
+                </div>
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">Video</span>
+                        Video
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</h2>
+                        <div class="author">
+                            <span class="name">By <a href="http://www.food.com/user/{{=it.userId}}">{{=it.displayName}}</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </script>
+  <script class="tile-template" id="tile-ingredient" type="text/html-template">
+   <div class="fd-tile fd-ingredient {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </script>
+  <script class="tile-template" id="tile-user" type="text/html-template">
+   <div class="fd-tile fd-user {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.blurPhotoUrl}}" data-blur="1000" data-target=".fd-img-wrap" data-quality="92" alt="{{=it.displayName}}">
+                </div>
+                <div class="tile-content">
+                    <div class="author">
+                        <span class="avatar">
+                            <a href="{{=it.url}}"><img src="{{=it.userAvatarUrl}}"></a>
+                        </span>
+                        <span class="name"><a href="{{=it.url}}">{{=it.displayName}}</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </script>
+  <script class="tile-template tmpl-metadata" type="text/html-template">
+   <span class="asset-count ">{{=it.itemCount}} {{=it.itemType}}</span>
+  </script>
+  <script class="tile-template" id="tile-howto" type="text/html-template">
+   <div class="fd-tile fd-how-to {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img src="{{=it.photoUrl}}"></a>
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </script>
+  <script class="tile-template" id="tile-article" type="text/html-template">
+   <div class="fd-tile fd-article {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img src="{{=it.photoUrl}}"></a>
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </script>
+  <script class="tile-template" id="tile-html" type="text/html-template">
+   {{=it.html}}
+  </script>
+  <script class="tile-template" id="tile-editorial" type="text/html-template">
+   <div class="fd-tile fd-editorial fd-tile-cta {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                        <div class="description">{{=it.description}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="fd-tile-footer">
+                <button>Create an Account</button>
+            </div>
+        </div>
+  </script>
+  <script class="tile-template" id="tile-rb-recipe" type="text/html-template">
+   <div class="fd-tile fd-recipe {{=it.noPhoto}} {{=it.noUser}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img src="{{=it.photoUrl}}" alt="{{=it.title}}" /></a>
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                        <div class="author">
+                            <span class="avatar">
+                                <a href="{{=it.userProfileUrl}}"><img src="{{=it.userAvatarUrl}}" alt="{{=it.displayName}}" /></a>
+                            </span>
+                            <span class="name">By <a href="{{=it.userProfileUrl}}">{{=it.displayName}}</a></span>
+                        </div>
+                        <div class="authorNoLink"><span class="name">By {{=it.displayName}}</span></div>
+                    </div>
+                </div>
+                <div class="tools">
+                    <a class="icon-fdc-save-to-recipe-box rb-open" data-recipe-id="{{=it.id}}" title="Add to Recipe Box"></a>
+                    <a class="icon-fdc-add-to-grocery-list grocery-list" data-recipe-id="{{=it.id}}" title="Add to Grocery List"></a>
+                    <a class="icon-fdc-share" data-recipe-id="{{=it.id}}" data-message="" data-title="{{=it.title}}" data-image="{{=it.photoUrl}}" data-url="{{=it.url}}" data-target="#share_modal" data-toggle="modal" title="Share"></a>
+                </div>
+            </div>
+        </div>
+  </script>
+  <script class="tile-template" id="tile-message" type="text/html-template">
+   <div class="fd-tile tile-error {{=it.type}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title">{{=it.text}}</h2>
+                        {{? it.description }}
+                        <p class="description">{{=it.description}}</p>
+                        {{?}}
+                        <div class="cta">
+                            <div class="asset-count"><i class="{{=it.iconClass}}"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </script>
+  <!-- /footer -->
+ </body>
+</html>
+

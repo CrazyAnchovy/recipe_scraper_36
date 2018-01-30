@@ -1,0 +1,1897 @@
+           % Daily Value
+          </dd>
+          <dt class="cals nutrition">
+           Calories
+           <span class="calories">
+            348.8
+           </span>
+          </dt>
+          <dd class="cals">
+          </dd>
+          <dt class="fat-cals nutrition">
+           Calories from Fat 131
+          </dt>
+          <dd class="fat-cals">
+           38%
+          </dd>
+          <dt class="sub nutrition">
+           Total Fat
+           <span class="fat">
+            14.7
+           </span>
+           <span class="type">
+            g
+           </span>
+          </dt>
+          <dd class="sub">
+           22%
+          </dd>
+          <dt class="sub nutrition">
+           Saturated Fat
+           <span class="saturatedFat">
+            2.2
+           </span>
+           <span class="type">
+            g
+           </span>
+          </dt>
+          <dd class="sub">
+           11%
+          </dd>
+          <dt class="nutrition">
+           Cholesterol
+           <span class="cholesterol">
+            109.2
+           </span>
+           <span class="type">
+            mg
+           </span>
+          </dt>
+          <dd>
+           36%
+          </dd>
+          <dt class="nutrition">
+           Sodium
+           <span class="sodium">
+            419.8
+           </span>
+           <span class="type">
+            mg
+           </span>
+          </dt>
+          <dd>
+           17%
+          </dd>
+          <dt class="nutrition">
+           Total Carbohydrate
+           <span class="carbohydrates">
+            10.8
+           </span>
+           <span class="type">
+            g
+           </span>
+          </dt>
+          <dd>
+           3%
+          </dd>
+          <dt class="sub nutrition">
+           Dietary Fiber
+           <span class="fiber">
+            0.1
+           </span>
+           <span class="type">
+            g
+           </span>
+          </dt>
+          <dd class="sub">
+           0%
+          </dd>
+          <dt class="sub nutrition">
+           Sugars
+           <span class="fiber">
+            2.6
+           </span>
+           <span class="type">
+            g
+           </span>
+          </dt>
+          <dd class="sub">
+           10%
+          </dd>
+          <dt class="last nutrition">
+           Protein
+           <span class="protein">
+            41.7
+           </span>
+           <span class="type">
+            g
+           </span>
+          </dt>
+          <dd class="last">
+           83%
+          </dd>
+         </dl>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="235164_servings" role="dialog" tabindex="-1">
+      <div class="modal-dialog">
+       <div class="modal-content">
+        <form action="" name="servingsModForm" onsubmit="if(!$.isNumeric($(document.forms['servingsModForm']['scaleto']).val())) { document.forms['servingsModForm'].reset(); return false; } ">
+         <input name="mode" type="hidden" value="us"/>
+         <input name="st" type="hidden" value="true"/>
+         <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">
+           Serves
+          </h4>
+         </div>
+         <div class="modal-body">
+          <input class="amount" data-original="6.0" min="1" name="scaleto" type="number" value="6"/>
+          <span class="unit">
+          </span>
+         </div>
+         <div class="modal-footer">
+          <button class="btn btn-link" data-dismiss="modal" type="button">
+           Cancel
+          </button>
+          <button class="btn btn-primary" type="submit">
+           Done
+          </button>
+         </div>
+        </form>
+       </div>
+      </div>
+     </div>
+     <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="235164_yield" role="dialog" tabindex="-1">
+      <div class="modal-dialog">
+       <div class="modal-content">
+        <form action="" name="yieldModForm" onsubmit="if(!$.isNumeric($(document.forms['yieldModForm']['scaleto']).val())) {  document.forms['yieldModForm'].reset(); return false; }">
+         <input name="mode" type="hidden" value="us"/>
+         <input name="st" type="hidden" value="true"/>
+         <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">
+           Yields
+          </h4>
+         </div>
+         <div class="modal-body">
+          <input class="amount" min="1" name="scaleto" type="number" value="null"/>
+          <span class="unit">
+          </span>
+         </div>
+         <div class="modal-footer">
+          <button class="btn btn-link" data-dismiss="modal" type="button">
+           Cancel
+          </button>
+          <button class="btn btn-primary" type="submit">
+           Done
+          </button>
+         </div>
+        </form>
+       </div>
+      </div>
+     </div>
+     <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="235164_units" role="dialog" tabindex="-1">
+      <div class="modal-dialog">
+       <div class="modal-content">
+        <form action="">
+         <input name="scaleto" type="hidden" value="6.0"/>
+         <input name="st" type="hidden" value="null"/>
+         <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">
+           Units
+          </h4>
+         </div>
+         <div class="modal-body">
+          <input checked="" class="fa" id="r1" name="mode" type="radio" value="us"/>
+          <label for="r1">
+           US
+          </label>
+          <input class="fa" id="r2" name="mode" type="radio" value="metric"/>
+          <label for="r2">
+           Metric
+          </label>
+         </div>
+         <div class="modal-footer">
+          <button class="btn btn-link" data-dismiss="modal" type="button">
+           Cancel
+          </button>
+          <button class="btn btn-primary" type="submit">
+           Done
+          </button>
+         </div>
+        </form>
+       </div>
+      </div>
+     </div>
+     <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="social_share_modal" role="dialog" tabindex="-1">
+      <div class="modal-dialog">
+       <div class="modal-content share">
+        <div class="modal-header">
+         <button class="close" data-dismiss="modal" type="button">
+          <span aria-hidden="true">
+           ×
+          </span>
+          <span class="sr-only">
+           Close
+          </span>
+         </button>
+         <label class="modal-title">
+          Share this recipe:
+         </label>
+         <h2 class="modal-title">
+          Oaxacan Grilled Fish - Mexico
+         </h2>
+        </div>
+        <div class="modal-body">
+         <div class="list-group list-group-white list-group-center analytic-box" data-module="modalShareRecipe">
+          <a class="list-group-item share-recipe social-share" data-network="pinterest" data-recipe-id="235164" href="#">
+           <i class="icon-fdc-pinterest">
+           </i>
+           Pinterest
+          </a>
+          <a class="list-group-item share-recipe social-share" data-network="facebook" data-recipe-id="235164" href="#">
+           <i class="icon-fdc-facebook">
+           </i>
+           Facebook
+          </a>
+          <a class="list-group-item share-recipe social-share" data-network="twitter" data-recipe-id="235164" href="#">
+           <i class="icon-fdc-twitter">
+           </i>
+           Twitter
+          </a>
+          <a class="list-group-item share-recipe social-share" data-network="gplus" data-recipe-id="235164" href="#">
+           <i class="icon-fdc-google">
+           </i>
+           Google+
+          </a>
+          <a class="list-group-item share-recipe" href="mailto:?subject=Food.com for Oaxacan Grilled Fish - Mexico&amp;body=Here%27s a recipe for Oaxacan Grilled Fish - Mexico from Food.com%3A http%3A%2F%2Fwww.food.com%2Frecipe%2Foaxacan-grilled-fish-mexico-235164%3Fnl%3Demail_share">
+           <i class="icon-fdc-email">
+           </i>
+           Email
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="235164_socialupload" role="dialog" tabindex="-1">
+      <div class="modal-dialog">
+       <div class="modal-content share">
+        <div class="modal-header">
+         <h4 class="modal-title">
+          Saving Photo...
+         </h4>
+        </div>
+        <div class="modal-body">
+         <i class="icon-fdc-loading fa-spin">
+         </i>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div aria-hidden="true" aria-labelledby="modal_cookedthis" class="modal fade modal-content-collapse fd-timed-modal" id="modal_sharetimer" role="dialog" tabindex="-1">
+      <div class="modal-dialog">
+       <div class="modal-content">
+        <div class="modal-header">
+         <button class="close" data-dismiss="modal" type="button">
+          <i class="icon-fdc-close">
+          </i>
+          <span class="sr-only">
+           Close
+          </span>
+         </button>
+        </div>
+        <div class="modal-body">
+         <h4>
+          Like what you see here?
+         </h4>
+         <ul class="list-group">
+          <li class="list-group-item">
+           <a class="rb-open" data-recipe-id="235164" href="#" onclick="$('#modal_sharetimer').modal('hide');" title="Add to Recipe Box">
+            Save to Recipe Box
+           </a>
+          </li>
+          <li class="list-group-item">
+           <a data-popup-id="#social_share_modal" data-target="#social_share_modal" data-toggle="modal" href="#" onclick="$('#modal_sharetimer').modal('hide');" title="Share">
+            Tell a Friend
+           </a>
+          </li>
+         </ul>
+         <div class="fd-newsletter-signup">
+          <h5>
+           Get Our Daily Dinner Newsletter
+          </h5>
+          <div class="fd-email-signup">
+           <input class="fd-email-input" placeholder="your@email.com" type="email"/>
+           <span class="invalid-email-message">
+            Please enter a valid email address.
+           </span>
+           <button class="btn btn-emphasis fd-email-signup-submit">
+            Sign up
+           </button>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modal_recipebox" role="dialog" tabindex="-1">
+      <div class="modal-dialog">
+       <div class="modal-content share">
+        <div class="modal-header">
+         <button class="close" data-dismiss="modal" type="button">
+          <span aria-hidden="true">
+           ×
+          </span>
+          <span class="sr-only">
+           Close
+          </span>
+         </button>
+         <h4 class="modal-title">
+          Add to Recipe Box
+         </h4>
+         <p>
+          Please select a folder
+         </p>
+        </div>
+        <div class="modal-body">
+         <div class="loading">
+          <i class="icon-fdc-loading fa-spin">
+          </i>
+         </div>
+         <div class="list-group list-hide">
+         </div>
+         <input class="amount folder-name" name="folder-name" placeholder="Add a New Folder" type="text" value=""/>
+         <span class="unit unit-bottom">
+          <a class="recipe-box-add-new-folder" data-folder-name-class="folder-name" data-recipe-id="" href="#">
+           +
+          </a>
+         </span>
+        </div>
+       </div>
+      </div>
+     </div>
+     <!-- /modals -->
+    </article>
+    <script>
+     FD.subscribe( 'sales.widget.code.loaded' , function() {
+        FD.Page.Recipe.initSalesWidget( '235164' , 'http://www.food.com' );
+    });
+    </script>
+    <script id="stream-message" type="text/html-template">
+     <section class="cards-wrap stream-message" data-type="{{=it.type}}">
+        <div class="cards-inner">
+            <div class="fd-card">
+                <div class="fd-card-content">
+                    <div class="fd-card-info">
+                        <div class="dfp-bigbox-inner">
+                            <div class="dfp-ad-wrap">
+                                <div class="dfp" data-dfp-type="dfp_bigbox"></div>
+                            </div>
+                        </div>
+                        <h2 class="fd-card-title">
+                            {{? it.iconClass }}
+                            <i class="{{=it.iconClass}}"></i>
+                            {{?}}
+                            {{=it.text}}
+                        </h2>
+                    </div>
+                </div>
+                <div class="dfp-bigbox-outer">
+                    <div class="dfp-ad-wrap">
+                        <div class="dfp" data-dfp-type="dfp_bigbox"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </script>
+    <script id="collection" type="text/html-template">
+     <section id="scc-{{=it.sccId}}" data-scc-id="{{=it.sccId}}" data-seo-url="{{=it.seoUrl}}" class="cards-wrap" style="background-image: url('{{=it.blurImageUrl}}'); background-size: cover;">
+
+
+        <div class="vid-heading">
+            <video class="vid-autoplay" autoplay="" muted="true" loop="">
+              <source src="{{=it.videoBgUrl}}" type="video/mp4">
+            </video>
+        </div>
+
+
+        <header>
+            <div class="fd-share-tools">
+                <a class="global-share pinterest-round" data-network="pinterest">
+                    <i class="icon-fdc-pinterest"></i>
+                </a>
+                <a class="global-share facebook-round" data-network="facebook">
+                    <i class="icon-fdc-facebook"></i>
+                </a>
+                <a class="global-share email-round" data-network="send-email">
+                    <i class="icon-fdc-email"></i>
+                </a>
+            </div>
+
+            <div class="fd-bg-gradient" style=""></div>
+
+            <div class="collection-tier-1-heading">
+                <h1 class="collection-tier-1-title">{{=it.title}}</h1>
+
+
+        <div class="dfp-sponsor-container">
+            <div class="dfp dfp-sponsor-ad" data-dfp-type="dfp_sponsor"></div>
+        </div>
+
+                <p class="collection-tier-1-description">{{=it.description}}</p>
+            </div>
+
+            {{? it.parentCollectionUrl }}
+            <p class="collection-tier-1-breadcrumb"><i class="icon-fdc-arrow-left"></i><span class="parent-label">Part of:</span>&nbsp;<a class="parent-collection" href="{{=it.parentCollectionUrl}}">{{it.parentCollectionName}}</a></p>
+            {{?}}
+
+        </header>
+
+        <div class="cards-inner"></div>
+    </section>
+    </script>
+    <script data-type-id="900003" id="card" type="text/html-template">
+     <div class="tier-1-card fd-card {{=it.type}}" id="card-{{=it.cardRefId}}" data-id="{{=it.cardRefId}}" data-seo-url="{{=it.seoUrl}}" data-url="{{=it.assetUrl}}">
+        <div class="fd-card-content">
+            <div class="fd-card-img-shell {{=it.photoClass}}">
+                <div class="fd-card-img-wrapper">
+                    {{~ it.photos :photoUrl }}
+                    <div class="inner-wrapper">
+                        <img class="fd-card-image" data-src="{{=photoUrl}}">
+                    </div>
+                    {{~}}
+                </div>
+            </div>
+            <div class="fd-card-info">
+                <h2 class="fd-card-title">{{=it.title}}</h2>
+                <p class="fd-card-description">{{=it.description}}</p>
+                <a href="{{=it.url}}" class="btn btn-over-dark-alt">{{=it.photoUserName}}</a>
+            </div>
+        </div>
+    </div><!-- .fd-card -->
+    </script>
+    <script data-type-id="900001" id="nav-items" type="text/html-template">
+     <section class="tier-1-nav">
+        <div class="fd-flexbox-wrap">
+            <div class="fd-flexbox">
+        {{~ it.listItems :item}}
+                <div class="tier-1-nav-item fd-flexbox-item" data-url="{{=item.url}}">
+                    <div class="content">
+                        <strong><a class="over-dark" href="{{=item.url}}">{{=item.title}}</a></strong>
+                    </div>
+                </div>
+        {{~}}
+                <div class="tier-1-nav-item fd-flexbox-item">
+                    <div class="content">
+                        <strong>&nbsp; &nbsp;</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-left">
+            <a class="icon-fdc icon-fdc-arrow-left"></a>
+        </div>
+        <div class="nav-right">
+            <a class="icon-fdc icon-fdc-arrow-right"></a>
+        </div>
+    </section>
+    </script>
+    <script data-type-id="900002" id="featured" type="text/html-template">
+     <div class="fd-card fd-card-featured tier-item-container" id="card-{{=it.cardRefId}}" data-id="{{=it.cardRefId}}" data-seo-url="{{=it.seoUrl}}">
+
+        <div class="fd-card-featured-content" >
+
+            <div class="fd-card-img-shell">
+                <div class="img-overlay"></div>
+                <div class="fd-card-img-wrapper">
+                    <div class="inner-wrapper">
+                        <img class="fd-card-image" data-src="{{=it.imageUrl}}" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="fd-flexbox">
+                <div class="fd-card-main">
+                    <div class="fd-card-info">
+                        <h2 class="fd-card-title">{{=it.title}}</h2>
+                        <p class="fd-card-description">{{=it.description}}</p>
+                    </div>
+                </div>
+                <div class="fd-card-aside">
+                    <div class="fd-flexbox">
+                    {{~it.listItems :item}}
+                        <div class="fd-card-aside-item" data-url="{{=item.seoUrl}}">
+                            <div class="img-overlay">&nbsp;</div>
+                            <div class="fd-card-img-shell">
+                                <div class="fd-card-img-wrapper">
+                                    <div class="inner-wrapper">
+                                        <a href="{{=item.seoUrl}}">
+                                            <img class="fd-card-image" data-src="{{=item.photoUrl}}">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fd-card-aside-item-info">
+                                <h4 class="fd-card-title"><a class="over-dark" href="{{=item.seoUrl}}">{{=item.title}}</a></h4>
+                            </div>
+                        </div>
+                    {{~}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- .fd-card -->
+    </script>
+    <script class="tile-recipe" type="text/html-template">
+     <div class="fd-tile fd-recipe {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-ribbon">
+                    <div class="fd-ribbon-tail tail-white"></div>
+                </div>
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img data-src="{{=it.photoUrl}}" /></a>
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                        <div class="author">
+                            <span class="avatar">
+                                <a href="{{=it.userUrl}}"><img data-src="{{=it.userAvatarUrl}}" alt="{{=it.displayName}}" /></a>
+                            </span>
+                            <span class="name">By <a href="{{=it.userUrl}}">{{=it.displayName}}</a></span>
+                        </div>
+                        <div class="meta-data">
+                            <div class="fd-rating">
+                                <div class="five-star">
+                                    <span class="fd-rating-percent" style="width:{{=it.percentRating}};"></span>
+                                </div>
+                                <span>({{=it.totalRatings}})</span>
+                            </div>
+                            <div class="cook-time"><i class='icon-fdc-clock'></i> {{=it.totalTime}}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tools">
+                    <a class="icon-fdc-save-to-recipe-box rb-open" data-recipe-id="{{=it.id}}" title="Add to Recipe Box"></a>
+                    <a class="icon-fdc-add-to-grocery-list grocery-list" data-recipe-id="{{=it.id}}" title="Add to Grocery List"></a>
+                    <a class="icon-fdc-share" data-recipe-id="{{=it.id}}" data-message="{{=it.title}}" data-title="{{=it.title}}" data-image="{{=it.photoUrl}}" data-url="{{=it.url}}" data-target="#share_modal" data-toggle="modal" title="Share"></a>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script class="tile-topic" type="text/html-template">
+     <div class="fd-tile fd-topic {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img data-src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+                <ul class="related-links">
+                    <li><a href="{{=it.itemUrl}}">{{=it.itemText}}</a></li>
+                </ul>
+            </div>
+        </div>
+    </script>
+    <script class="tile-list" type="text/html-template">
+     <div class="fd-tile fd-list" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title">{{=it.title}}</h2>
+                    </div>
+                </div>
+                <ul class="topics related-links">
+                    <li><a href="{{=it.itemUrl}}">{{=it.itemText}}</a></li>
+                </ul>
+            </div>
+        </div>
+    </script>
+    <script class="tile-photo" type="text/html-template">
+     <div class="fd-tile fd-topic {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img data-src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script class="tile-review" type="text/html-template">
+     <article itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <h5><a href="{{=it.url}}">{{=it.title}}</a></h5>
+        <div class="fd-rating">
+            <div class="five-star">
+                <span class="fd-rating-percent" style="width: {{=it.rating}}"></span>
+
+                <p style="display: none;" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                    <meta itemprop="worstRating" content = "1"/>
+                    <span itemprop="ratingValue" style="display:none"></span>
+                    <span itemprop="bestRating" style="display:none">5</span>
+                </p>
+
+            </div>
+        </div>
+        <small class="date">{{=it.date}}</small>
+        <p itemprop="description">{{=it.review}}</p>
+    </article>
+    </script>
+    <script class="tile-collection tile-gallery" type="text/html-template">
+     <div class="fd-tile fd-gallery {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img data-src="{{=it.photoUrl}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script class="tile-video" type="text/html-template">
+     <div class="fd-tile fd-video {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="sponsored" style="display: none;">
+                    <span class="sr-only">Sponsored by {{=it.sponsor}}</span>
+                    {{=it.sponsor}}
+                </div>
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img data-src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">Video</span>
+                        Video
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</h2>
+                        <div class="author">
+                            <span class="name">By <a href="http://www.food.com/user/{{=it.userId}}">{{=it.displayName}}</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script class="tile-sponsor" type="text/html-template">
+    </script>
+    <script class="tile-ingredient" type="text/html-template">
+     <div class="fd-tile fd-ingredient {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img data-src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script class="tile-user" type="text/html-template">
+     <div class="fd-tile fd-user {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img data-src="{{=it.blurPhotoUrl}}" data-blur="1000" data-target=".fd-img-wrap" data-quality="92" alt="{{=it.displayName}}">
+                </div>
+                <div class="tile-content">
+                    <div class="author">
+                        <span class="avatar">
+                            <a href="{{=it.url}}"><img data-src="{{=it.userAvatarUrl}}"></a>
+                        </span>
+                        <span class="name"><a href="{{=it.url}}">{{=it.displayName}}</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script class="tmpl-metadata" type="text/html-template">
+     <span class="asset-count ">{{=it.itemCount}} {{=it.itemType}}</span>
+    </script>
+    <script class="tile-howto" type="text/html-template">
+     <div class="fd-tile fd-how-to {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img data-src="{{=it.photoUrl}}"></a>
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script class="tile-article" type="text/html-template">
+     <div class="fd-tile fd-article {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img data-src="{{=it.photoUrl}}"></a>
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script class="tile-editorial" type="text/html-template">
+     {{=it.html}}
+    </script>
+    <script class="tile-editorial2" type="text/html-template">
+     <div class="fd-tile fd-editorial fd-tile-cta {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img data-src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                        <div class="description">{{=it.description}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="fd-tile-footer">
+                <button>Create an Account</button>
+            </div>
+        </div>
+    </script>
+    <script class="tile-rb-recipe" type="text/html-template">
+     <div class="fd-tile fd-recipe {{=it.noPhoto}} {{=it.noUser}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img data-src="{{=it.photoUrl}}" alt="{{=it.title}}" /></a>
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                        <div class="author">
+                            <span class="avatar">
+                                <a href="{{=it.userUrl}}"><img data-src="{{=it.userAvatarUrl}}" alt="{{=it.displayName}}" /></a>
+                            </span>
+                            <span class="name">By <a href="{{=it.userUrl}}">{{=it.displayName}}</a></span>
+                        </div>
+                        <div class="authorNoLink"><span class="name">By {{=it.displayName}}</span></div>
+                    </div>
+                </div>
+                <div class="tools">
+                    <a class="icon-fdc-save-to-recipe-box rb-open" data-recipe-id="{{=it.id}}" title="Add to Recipe Box"></a>
+                    <a class="icon-fdc-add-to-grocery-list grocery-list" data-recipe-id="{{=it.id}}" title="Add to Grocery List"></a>
+                    <a class="icon-fdc-share" data-recipe-id="{{=it.id}}" data-message="" data-title="{{=it.title}}" data-image="{{=it.photoUrl}}" data-url="{{=it.url}}" data-target="#share_modal" data-toggle="modal" title="Share"></a>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script class="tile-error" type="text/html-template">
+     <div class="fd-tile fd-error {{=it.noPhoto}}" data-id="{{=it.type}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title">{{=it.title}}</h2>
+                        <p class="description">{{=it.description}}</p>
+                        <div class="cta">
+                            <div class="asset-count"><i class="icon-fdc-arrow-right"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script data-type-id="" id="tile-galleryphototile" type="text/html-template">
+     <div class="gallery-tile-container">
+        <div class="gallery-tile" data-id="{{=it.photoId}}" data-share-url="{{? it.shareUrl}}{{=it.shareUrl}}{{?}}">
+            <div class="gallery-photo">
+                <div class="gallery-img-wrapper">
+                    {{? it.hideEditIcon != true}}
+                        <a href="{{=it.editPhotoUrl}}"
+                           data-clicktrack="true">
+                            <i class="edit-recipe icon-fdc-edit"
+                               title="Edit Photo">
+                            </i>
+                        </a>
+                    {{?}}
+                        <img class="gallery-img"
+                             data-src="{{=it.photoUrl}}"
+                             data-target=".gallery-photo"
+                             data-crop-mode="fit" alt="">
+
+                    {{? !it.isPrivate}}
+                        <div class="global-share fd-share-tools analytic-box" data-module="recipe-gallery-card-share">
+                            <a class="pinterest-round-white"
+                               data-clicktrack="true"
+                               data-network="pinterest"
+                               data-img-url="{{=it.photoUrl}}"
+                               data-seo-url="{{=it.shareUrl}}"
+                               title="Share on pinterest">
+                                <i class="icon-fdc-pinterest social-share" title="Share on Pinterest"></i>
+                            </a>
+                        </div>
+                    {{?}}
+                </div>
+            </div>
+
+            <div class="gallery-photo-caption">
+                <div class="gallery-photo-avatar">
+                        <span class="fd-avatar sm">
+                            <a href="{{=it.memberProfileUrl}}"><img data-src="{{=it.memberAvatar}}"></a>
+                        </span>
+                </div>
+                <span class="gallery-photo-text">
+                            <h4 class="gallery-photo-credit">Photo of {{=it.recipeTitle}} by&nbsp;<a href="{{=it.memberProfileUrl}}">{{=it.memberName}}</a></h4>
+                            {{? it.text }}
+                                <div class="gallery-photo-description">
+                                    <p class="js-photo-description">&ldquo;{{=it.text}}&rdquo;</p>
+                                </div>
+                            {{?}}
+                            {{? !it.isPrivate}}
+                            <div class="gallery-like">
+                                <a class="af-like {{? it.liked}} liked{{?}}" data-item-id="{{=it.photoId}}" data-item-type="{{=it.likeItemType}}" href="#">
+                                <span class="af-like-label">Like</span>
+                                <span class="af-like-count">{{? it.likeCount > 0}}{{= it.likeCount}}{{?}}</span> </a>
+                            </div>
+                            {{?}}
+                        </span>
+            </div>
+        </div>
+        {{=it.tailHtml}}
+    </div>
+    </script>
+    <script data-type-id="" id="tile-galleryvideotile" type="text/html-template">
+     <div class="gallery-tile-container">
+        <div class="gallery-tile video-tile" data-share-url="{{? it.shareUrl}}{{=it.shareUrl}}{{?}}">
+            <div class="gallery-photo video-stop-frame">
+                <div class="gallery-img-wrapper">
+                    <a class="gallery-video-link" href="{{=it.videoUrl}}">
+                        <div class="img-overlay"></div>
+                        <i class="icon-fdc-play over-img"></i>
+                        <img class="gallery-img video-img"
+                             data-src="{{=it.photoUrl}}"
+                             data-target=".gallery-photo"
+                             data-crop-mode="fit" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-photo-caption">
+                <span class="gallery-photo-text">
+                    <h6 class="gallery-photo-credit">RELATED VIDEO</h6>
+                    <div class="gallery-photo-description">
+                        <a class="gallery-video-title" href="{{=it.videoUrl}}" >{{=it.text}}</a>
+                    </div>
+                </span>
+            </div>
+        </div>
+        {{=it.tailHtml}}
+    </div>
+    </script>
+    <script id="dot-ads-to-md" type="text/html-template">
+     <div class="fd-card dfp-bigbox-sm">
+        <div class="fd-ad-card-inner">
+            <div class="dfp-ad-wrap">
+                <div class="dfp" data-dfp-type="dfp_bigbox"></div>
+                <span class="ad-label">Advertisement</span>
+            </div>
+        </div>
+    </div>
+    </script>
+    <script id="dot-ads-from-md" type="text/html-template">
+     <div class="dfp-bigbox-outer" data-use-relative-position="true">
+        <div class="dfp-ad-wrap">
+            <div class="dfp" data-dfp-type="dfp_bigbox"></div>
+            <span class="ad-label">Advertisement</span>
+        </div>
+    </div>
+    </script>
+    <script id="tile-contributorinfo" type="text/html-template">
+     <section class="js-contributor-tile recipe-contributor">
+        <!-- Contributor Status-->
+        <div class="content-outer-wrapper">
+            <div class="contributor-header">
+                <h4 class="fd-container">Recipe made with love by</h4>
+            </div>
+            <div class="contributor-info fd-container analytic-box" data-module="contributorInfo">
+                <div class="author">
+                    <div class="outer-wrapper">
+                        <div class="inner-wrapper">
+                            <a href="{{=it.profileUrl}}">
+                                <span class="fd-avatar masked lg">
+                                    <img data-src="{{=it.avatarUrl}}"
+                                         data-default="http://img.sndimg.com/food/image/upload/q_92,fl_progressive/l_quote-mask-x10_pit7fn,fl_cutter.relative,w_1.0,h_1.0/v1/fdc/img/placeholder/avatar.png"
+                                         data-target=".fd-avatar"
+                                         data-crop-mode="fill">
+                                </span>
+                            </a>
+                            <div class="author-info">
+                                {{? it.viewedByRecipeOwner}}
+                                <label class="fd-label js-follow-status" >(This is you!)</label>
+                                {{?}}
+                                <a href="{{=it.profileUrl}}" class="user-display-name">{{=it.memberName}}</a>
+                                <div class="user-status">{{? it.userStatus}}{{=it.userStatus}}{{?}}</div>
+                            </div>
+                        </div>
+                        {{? !it.viewedByRecipeOwner }}
+                        <div class="fd-spinner js-busy-animation" style="display: none">
+                            <i class="icon-fdc-loading"></i>
+                        </div>
+                        <button name="follow/unfollow" class="hidden-xs follow-btn js-btn">{{=it.bntCaption}}</button>
+                        {{?}}
+                    </div>
+                </div>
+                <div class="contributions">
+                    <h4>Contributions</h4>
+                    <div class="fd-list-table">
+                        <ul>
+                            <li id="stats-recipes">
+                                <a href="{{=it.profileUrl}}#recipes">
+                                    <h6>Recipes</h6>
+                                    <div class="data">
+                                        <span class="count">{{=it.recipesCount}}</span>
+                                    </div>
+                                </a>
+                            </li>
+                            {{? it.tweaksCount > 0}}
+                            <li id="stats-tweaks">
+                                <a href="{{=it.profileUrl}}">
+                                    <h6>Tweaks</h6>
+                                    <div class="data">
+                                        <span class="count">{{=it.tweaksCount}}</span>
+                                    </div>
+                                </a>
+                            </li>
+                            {{?}}
+                            {{? it.photosCount > 0}}
+                            <li id="stats-photos">
+                                <a href="{{=it.profileUrl}}#photos">
+                                    <h6>Photos</h6>
+                                    <div class="data">
+                                        <span class="count">{{=it.photosCount}}</span>
+                                    </div>
+                                </a>
+                            </li>
+                            {{?}}
+                        </ul>
+                    </div>
+                </div>
+                {{? !it.viewedByRecipeOwner }}
+                <div class="fd-spinner js-busy-animation" style="display: none">
+                    <i class="icon-fdc-loading"></i>
+                </div>
+                <button class="hidden-sm hidden-md hidden-lg follow-btn js-btn">{{=it.bntCaption}}</button>
+                {{?}}
+            </div>
+        </div>
+    </section>
+    </script>
+    <script id="tile-relevantcontent" type="text/html-template">
+     <section class="youll-love">
+        <div class="fd-container">
+            <h3>You'll Also Love</h3>
+            <div class="tiles-container js-relevant-tiles-container">
+
+            </div>
+        </div>
+    </section>
+    </script>
+    <script id="tile-relevantcontentitem" type="text/html-template">
+     <div class="tile">
+        <a href="{{=it.url}}" target="_blank">
+            <div class="content-container">
+                <div class="img-wrapper">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img class="tile-img" data-src="{{=it.photo}}" alt="{{=it.title}}" data-target=".img-wrapper">
+                    {{? it.showPlayIcon}}
+                    <div class="fd-play-icon">
+                        <i class="icon-fdc-play over-img"></i>
+                    </div>
+                    {{?}}
+                </div>
+                <div class="description">
+                    <h5>{{=it.title}}</h5>
+                    <span class="meta"> {{? it.meta}}{{=it.meta}}{{?}}</span>
+                </div>
+            </div>
+        </a>
+    </div>
+    </script>
+   </div>
+   <div class="fd-overlay">
+   </div>
+   <!-- footer -->
+   <script src="http://img.food.com/fd/v2/js/core-recipe.min.js?v=114" type="text/javascript">
+   </script>
+   <script src="http://www.player.video.snidigital.com/vpc/1/6/js/sni-video.min.js" type="text/javascript">
+   </script>
+   <script type="text/javascript">
+    //$(function () {
+
+!function(a){a(function(){log("...DOM Ready (Gigya Events"),FD.subscribe("fd.session.loginVerified",function(){log("...login verified"),setTimeout(function(){if(FD.Page.loginRedirectUrl){var a=new FD.Url(FD.Page.loginRedirectUrl);a.hash="",window.location.href=a.toString()}else window.location.reload()},200)}),FD.subscribe("fd.session.logoutVerified",function(){log("...login verified"),setTimeout(function(){window.location.reload()},200)})})}(jQuery);
+
+
+// DTM
+
+if(typeof _satellite != 'undefined') {_satellite.pageBottom();}
+
+
+// adds the CTI library to the page
+
+(function (d) {var h;var s = d.createElement('script');s.type = 'text/javascript';s.async = true;s.src = FD.Config.ctiURL;h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(document);
+
+
+// set Omniture parameters
+
+if (!SNI.Omniture) { SNI.Omniture = {}; }
+
+SNI.Omniture.pageType = FD.Config.MetaData.pageType;
+
+if(typeof SniAds === "object") { SniAdsConfig.adSlots[0].mapping.small = [300,250]; SniAdsConfig.adSlots[0].mapping.medium = [300,250]; }
+
+try { if(typeof SniAds === "object") SniAds.init({ breakpoints: FD.viewports.getSniAdBreakpoints() }); } catch(e) { log('=== SNI Ad Library Error! ==='); log(e); }
+
+$(function() {FD.Page.Recipe.init({id: '235164',url: 'http://www.food.com/recipe/oaxacan-grilled-fish-mexico-235164',public: true,mdManager: {"adkey1":"GRILLING","adkey2":"","CategoryDspName":"RECIPES","Classification":"RECIPES,RECIPES,FOODCOM","ingredients":"adobo sauce,apple cider vinegar,black peppercorns,chipotle chiles in adobo,fish fillets,fresh ground black pepper,garlic,garlic cloves,mayonnaise,sea salt","keywordids":"10,12,14,15,16,21,106,127,219","keywords":"30_minutes_or_less,time_to_make,main_ingredient,cuisine,preparation,north_american,seafood,mexican,fish","SctnDspName":"RECIPES","Site":"FOODCOM","Sponsorship":"","type":"RECIPE","UniqueId":"1-235164-MAIN","Subdomain":"","Url":"http://www.food.com/recipe/oaxacan-grilled-fish-mexico-235164","Title":"Oaxacan Grilled Fish - Mexico Recipe - Food.com","PrepTime":"10","Version":"beta","Site Tier":"direct","OrigPubDate":"2007-06-16|2008-08-15","TopRecipe":"false","DeliveryChannel":"(FD && FD.viewports && FD.viewports.viewport().label) || null"},share: {imageUrl: 'http://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/23/51/64/pickluK7d.jpg',title: 'Oaxacan Grilled Fish - Mexico'},nextRecipe: {id: '0',url: ''},author: {avatarUrl: 'http://img.sndimg.com/food/image/upload/w_45,h_45,q_100,c_thumb/v1/fdc/img/placeholder/avatar.jpg',name: 'Mme M',url: 'http://www.food.com/user/382999'},}, false);});
+
+  
+
+//});
+   </script>
+   <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="share_modal" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+     <div class="modal-content share">
+      <div class="modal-header">
+       <button class="close" data-dismiss="modal" type="button">
+        <span aria-hidden="true">
+         ×
+        </span>
+        <span class="sr-only">
+         Close
+        </span>
+       </button>
+       <label class="modal-title">
+        Share:
+       </label>
+       <h2 class="modal-title">
+        Food.com
+       </h2>
+      </div>
+      <div class="modal-body">
+       <div class="list-group list-group-white list-group-center">
+        <a class="list-group-item social-share" data-network="pinterest" href="#">
+         <i class="icon-fdc-pinterest">
+         </i>
+         Pinterest
+        </a>
+        <a class="list-group-item social-share" data-network="facebook" href="#">
+         <i class="icon-fdc-facebook">
+         </i>
+         Facebook
+        </a>
+        <a class="list-group-item social-share" data-network="twitter" href="#">
+         <i class="icon-fdc-twitter">
+         </i>
+         Twitter
+        </a>
+        <a class="list-group-item social-share" data-network="gplus" href="#">
+         <i class="icon-fdc-google">
+         </i>
+         Google+
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- New DFP Ad Slots -->
+   <div id="dfp_utility1">
+   </div>
+   <div id="dfp_utility2">
+   </div>
+   <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="modal_recipebox" role="dialog" tabindex="-1">
+    <div class="modal-dialog">
+     <div class="modal-content share">
+      <div class="modal-header">
+       <button class="close" data-dismiss="modal" type="button">
+        <span aria-hidden="true">
+         ×
+        </span>
+        <span class="sr-only">
+         Close
+        </span>
+       </button>
+       <h4 class="modal-title">
+        Add to Recipe Box
+       </h4>
+       <p>
+        Please select a folder
+       </p>
+      </div>
+      <div class="modal-body">
+       <div class="loading">
+        <i class="icon-fdc-loading fa-spin">
+        </i>
+       </div>
+       <div class="list-group list-hide">
+       </div>
+       <input class="amount folder-name" name="folder-name" placeholder="Add a New Folder" type="text" value=""/>
+       <span class="unit unit-bottom">
+        <a class="recipe-box-add-new-folder" data-folder-name-class="folder-name" data-recipe-id="" href="#">
+         +
+        </a>
+       </span>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!-- menus -->
+   <div class="fd-menus">
+    <!-- SITE MENU -->
+    <section class="fd-menu fd-menu-site" id="fd-menu-main">
+     <div class="fd-menu-inner">
+      <div class="fd-menu-toolbar">
+       <button class="btn fd-menu-close btn-over-dark">
+        <i class="icon-fdc-arrow-left">
+        </i>
+        <span>
+         back
+        </span>
+       </button>
+      </div>
+      <ul class="nav navbar-nav">
+       <li class="navbar-lead">
+        <a data-clicktrack="true" href="http://www.food.com/ideas/quick-and-easy-summer-dinners-6558">
+         <div class="asset-label">
+          Featured
+         </div>
+         <div class="asset-feature">
+          16 Quick &amp; Easy Summer Dinners
+         </div>
+        </a>
+       </li>
+       <li>
+        <a data-clicktrack="true" href="http://www.food.com">
+         Home
+        </a>
+       </li>
+       <li>
+        <a data-clicktrack="true" href="http://www.food.com/recipe">
+         Recipes
+        </a>
+       </li>
+       <li>
+        <a data-clicktrack="true" href="http://www.food.com/photo-gallery">
+         Photo Galleries
+        </a>
+       </li>
+       <li>
+        <a data-clicktrack="true" href="http://www.food.com/videos/all-videos-20">
+         Videos
+        </a>
+       </li>
+       <li>
+        <a data-clicktrack="true" href="http://www.food.com/how-to">
+         How-Tos
+        </a>
+       </li>
+       <li>
+        <a data-clicktrack="true" href="http://www.food.com/topics">
+         All Categories
+        </a>
+       </li>
+       <li class="navbar-footer">
+        <div class="asset-label more-food">
+         More Food.com
+        </div>
+        <ul>
+         <li>
+          <a data-clicktrack="true" href="http://mynewsletters.scrippsnetworks.com/?mode=subscribe&amp;nlbrand=foodcom&amp;source=0000_FC_HEADER">
+           Newsletters
+          </a>
+         </li>
+         <li>
+          <a data-clicktrack="true" href="http://www.food.com/how-to/about-us-31">
+           About Us
+          </a>
+         </li>
+         <li>
+          <a href="http://www.food.com/html-sitemap">
+           Site Map
+          </a>
+         </li>
+         <li>
+          <a data-clicktrack="true" href="http://www.food.com/feedback">
+           Contact Us
+          </a>
+         </li>
+        </ul>
+        <div class="fd-navbar-tools">
+         <dl>
+          <dd>
+           <a class="icon-fdc-facebook" data-clicktrack="true" href="http://www.facebook.com/Food.com" target="_blank">
+           </a>
+          </dd>
+          <dd>
+           <a class="icon-fdc-pinterest" data-clicktrack="true" href="http://pinterest.com/fooddotcom/" target="_blank">
+           </a>
+          </dd>
+          <dd>
+           <a class="icon-fdc-twitter" data-clicktrack="true" href="https://twitter.com/fooddotcom" target="_blank">
+           </a>
+          </dd>
+          <dd>
+           <a class="icon-fdc-google" data-clicktrack="true" href="https://plus.google.com/117908044835237955765/posts" target="_blank">
+           </a>
+          </dd>
+          <dd>
+           <a class="icon-fdc-instagram" data-clicktrack="true" href="http://instagram.com/fooddotcom" target="_blank">
+           </a>
+          </dd>
+          <dd>
+           <a class="icon-fdc-email" href="http://mynewsletters.scrippsnetworks.com/?mode=subscribe&amp;nlbrand=foodcom&amp;source=0000_FC_HEADER">
+           </a>
+          </dd>
+         </dl>
+        </div>
+        <div class="fd-legal">
+         <p>
+          <span class="fns">
+           Food Network Sites
+          </span>
+          © 2017
+          <a data-clicktrack="true" href="http://www.scrippsnetworks.com" rel="Scripps Networks">
+           Scripps Networks
+          </a>
+          , LLC.
+          <br/>
+          All Rights Reserved.
+         </p>
+         <ul>
+          <li>
+           <a data-clicktrack="true" href="http://www.scrippsnetworksdigital.com" target="_blank">
+            Advertise With Us
+           </a>
+          </li>
+          <li>
+           <a data-clicktrack="true" href="http://info.evidon.com/pub_info/1212?v=1&amp;nt=1&amp;nw=false" id="_bapw-link" target="_blank">
+            <img id="_bapw-icon" src="http://c.betrad.com/pub/icon1.png"/>
+            <span>
+             AdChoices
+            </span>
+           </a>
+          </li>
+          <li>
+           <a data-clicktrack="true" href="http://www.scrippsnetworks.com/privacy.aspx" target="_blank">
+            Privacy Policy
+           </a>
+          </li>
+          <li>
+           <a data-clicktrack="true" href="http://www.scrippsnetworks.com/terms.aspx" rel="gf-legal-1" target="_blank">
+            Terms of Use
+           </a>
+          </li>
+         </ul>
+        </div>
+       </li>
+      </ul>
+     </div>
+    </section>
+    <!-- ./SITE MENU -->
+    <!-- USER MENU -->
+    <section class="fd-menu fd-menu-right" id="fd-menu-auth">
+     <div class="fd-menu-inner">
+      <div class="fd-menu-toolbar">
+       <button class="btn fd-menu-close btn-over-dark">
+        <i class="icon-fdc-arrow-left">
+        </i>
+        <span>
+         back
+        </span>
+       </button>
+      </div>
+      <ul class="nav navbar-nav">
+       <li class="navbar-lead fd-menu-greeting">
+        <a href="http://www.food.com/user/">
+         Hi, [user greeting]
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/user/">
+         Profile
+        </a>
+       </li>
+       <li>
+        <a href="http://recipes.food.com">
+         Recipe Box
+        </a>
+       </li>
+       <li>
+        <a href="http://recipes.food.com/shopping-list">
+         Grocery List
+        </a>
+       </li>
+       <li>
+        <a class="hidden-xs" href="http://www.food.com/mail">
+         Inbox
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/upload/recipe">
+         Add a Recipe
+        </a>
+       </li>
+       <li>
+        <a href="http://www.food.com/user/settings">
+         Account Settings
+        </a>
+       </li>
+       <li>
+        <a class="sso-logout" href="http://share.food.com/redirectors/logout_redirector.jsp?DEST_URL=">
+         Log Out
+        </a>
+       </li>
+       <li class="fd-no-session sso-login">
+        <a href="http://www.food.com/login?DEST_URL=">
+         Log In
+        </a>
+       </li>
+       <li class="fd-no-session sso-sign-up">
+        <a href="http://www.food.com/login?DEST_URL=">
+         Sign Up
+        </a>
+       </li>
+      </ul>
+     </div>
+    </section>
+    <!-- ./USER MENU -->
+    <!-- USER LOGIN MENU -->
+    <section class="fd-menu fd-menu-right" id="fd-menu-noauth">
+     <div class="fd-menu-inner">
+      <div class="fd-menu-toolbar">
+       <button class="btn fd-menu-close btn-over-dark">
+        <i class="icon-fdc-arrow-left">
+        </i>
+        <span>
+         back
+        </span>
+       </button>
+      </div>
+      <ul class="nav navbar-nav">
+       <li class="fd-no-session fd-sso-item">
+        <a class="sso-login" href="/login?dest">
+         Log In
+        </a>
+       </li>
+       <li class="fd-no-session fd-sso-item">
+        <a class="sso-sign-up" href="/signup?dest">
+         Sign Up
+        </a>
+       </li>
+      </ul>
+     </div>
+    </section>
+    <!-- ./USER LOGIN MENU -->
+    <!-- SEARCH MODULE -->
+    <section class="fd-menu" id="fd-menu-search">
+     <div class="fd-menu-inner">
+      <div class="search-panel">
+       <div class="fd-container fd-menu-toolbar">
+        <button class="btn fd-menu-close btn-over-dark">
+         <i class="icon-fdc-arrow-left">
+         </i>
+         <span>
+          back
+         </span>
+        </button>
+       </div>
+       <div class="fd-container search-box-spacer">
+        <div class="search-box">
+         <div class="search-box-wrap">
+          <div class="search-items-content search-box-content">
+           <div class="search-items search-box-items">
+            <ul class="search-items-list">
+             <li class="inputItem">
+              <input id="search-input" placeholder="Find a recipe" type="text"/>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="search-tools">
+           <button class="search-box-clear" tabindex="-1" type="button">
+            <span>
+             clear
+            </span>
+            <i class="icon-fdc-close" title="Clear All Items">
+            </i>
+           </button>
+           <div class="btn btn-icon search-button">
+            <i class="icon-fdc-search" title="Find a Recipe">
+            </i>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="fd-container search-menu-content">
+        <div class="search-items-content search-filter-content hidden" data-has-context="1" data-list-name="filter by" id="search-filters">
+         <div class="search-items search-filter-items">
+          <ul class="search-items-list search-filter-items-list">
+          </ul>
+         </div>
+        </div>
+        <div class="search-items-content search-suggest-content hidden" data-has-context="0" data-list-name="related searches" id="search-related">
+         <div class="search-items search-suggest-items">
+          <ul class="search-items-list search-suggest-items-list">
+          </ul>
+         </div>
+        </div>
+        <div class="search-items-content search-popular-content hidden" data-has-context="0" data-list-name="trending" id="search-trending">
+         <div class="search-items search-popular-items">
+          <ul class="search-items-list search-popular-items-list">
+          </ul>
+         </div>
+        </div>
+        <div class="search-items-content search-previous-content hidden" data-has-context="0" data-list-name="your-recent-searches" id="search-previous">
+         <div class="search-items search-previous-items">
+          <ul class="search-items-list search-previous-items-list">
+          </ul>
+         </div>
+        </div>
+        <div class="search-items-content search-recipe-content hidden" data-has-context="0" data-list-name="recently viewed" id="search-recipes">
+         <div class="search-items search-recipe-items">
+          <ul class="search-items-list search-recipe-items-list">
+          </ul>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="container-fluid search-module-results">
+       <header>
+        <div class="search-results-heading">
+        </div>
+        <div class="combo magic-buttons">
+         <select>
+          <option data-sort="recommended" selected="selected">
+           Recommended
+          </option>
+          <option data-sort="mostPopular">
+           Popular
+          </option>
+          <option data-sort="quickAndEasy">
+           Quick &amp; Easy
+          </option>
+          <option data-sort="healthy">
+           Healthy
+          </option>
+         </select>
+         <ul>
+          <li class="hover" data-sort="recommend">
+           Recommended
+          </li>
+          <li data-sort="mostPopular">
+           Most Popular
+          </li>
+          <li data-sort="quickAndEasy">
+           Quick &amp; Easy
+          </li>
+          <li data-sort="healthy">
+           Healthy
+          </li>
+         </ul>
+        </div>
+       </header>
+       <div class="search-results fd-container content-stream">
+       </div>
+      </div>
+     </div>
+     <div class="search-autosuggest drop-list" style="display: none; ">
+      <ul class="search-suggest-list">
+      </ul>
+     </div>
+    </section>
+    <!-- ./SEARCH MODULE -->
+    <!-- STICKY SHARE MODULE -->
+    <section class="fd-menu" id="sticky-share-module" style="display: none;">
+     <div class="fd-menu-inner">
+      <div class="fd-share-tools global-share">
+       <a class="pinterest social-share" data-clicktrack="true" data-network="pinterest" href="">
+        <i class="icon-fdc-pinterest">
+        </i>
+       </a>
+       <a class="facebook social-share" data-clicktrack="true" data-network="facebook" href="">
+        <i class="icon-fdc-facebook">
+        </i>
+       </a>
+       <a class="email social-share" data-clicktrack="true" data-network="sendEmail" data-popup-id="#email" href="mailto:?subject=&amp;body=" title="Share via Email">
+        <i class="icon-fdc-email" title="Email">
+        </i>
+       </a>
+      </div>
+     </div>
+    </section>
+    <!-- ./STICKY SHARE MODULE -->
+   </div>
+   <script class="autosuggest-template" id="autosuggestItem" type="text/html-template">
+    {{? !it.url }}
+        <li>{{=it.title}}</li>
+    {{?}}
+    {{? it.url }}
+        <li class="autosuggest-asset {{=(it.hasLabel ? 'label' : '')}}" title="{{=it.title}}" data-record-type="{{=it.record_type}}" data-url="{{=it.url}}">
+            <a href="{{=it.url}}?ic1=suggestedAsset%7C{{=it.searchTerm}}" tabindex="-1">
+                {{=it.title}}
+                <div class="item-photo">
+                    <div class="item-photo-wrap">
+                        <img src="{{=it.photoUrl || 'http://img.food.com/fdc/img/FDC_share-logo.png'}}" alt="{{=it.title}}" data-crop-mode="fill" data-target=".item-photo" />
+                    </div>
+                </div>
+            </a>
+        </li>
+    {{?}}
+   </script>
+   <!-- ./menus -->
+   <script class="tile-template" id="tile-recipe" type="text/html-template">
+    <div class="fd-tile fd-recipe {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-ribbon">
+                    <div class="fd-ribbon-tail tail-white"></div>
+                </div>
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img src="{{=it.photoUrl}}" /></a>
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                        <div class="author">
+                            <span class="avatar">
+                                <a href="{{=it.userProfileUrl}}"><img src="{{=it.userAvatarUrl}}" alt="{{=it.displayName}}" /></a>
+                            </span>
+                            <span class="name">By <a href="{{=it.userProfileUrl}}">{{=it.displayName}}</a></span>
+                        </div>
+                        <div class="meta-data">
+                            <div class="fd-rating">
+                                <div class="five-star">
+                                    <span class="fd-rating-percent" style="width:{{=it.percentRating}};"></span>
+                                </div>
+                                <span>({{=it.ratingCount}})</span>
+                            </div>
+                            <div class="cook-time"><i class='icon-fdc-clock'></i> {{=it.totalTime}}</div>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                <div class="tools">
+                    <a class="icon-fdc-save-to-recipe-box rb-open" data-recipe-id="{{=it.id}}" title="Add to Recipe Box"></a>
+                    <a class="icon-fdc-add-to-grocery-list grocery-list" data-recipe-id="{{=it.id}}" title="Add to Grocery List"></a>
+                    <a class="icon-fdc-share" data-recipe-id="{{=it.id}}" data-message="{{=it.title}}" data-title="{{=it.title}}" data-image="{{=it.photoUrl}}" data-url="{{=it.url}}" data-target="#share_modal" data-toggle="modal" title="Share"></a>
+                </div>
+                -->
+            </div>
+        </div>
+   </script>
+   <script class="tile-template" id="tile-topic" type="text/html-template">
+    <div class="fd-tile fd-topic {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    {{? it.photoUrl }}
+                        <img src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                    {{?}}
+                </div>
+
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+                <ul class="related-links">
+                    <li><a href="{{=it.itemUrl}}">{{=it.itemText}}</a></li>
+                </ul>
+            </div>
+        </div>
+   </script>
+   <script class="tile-template" id="tile-list" type="text/html-template">
+    <div class="fd-tile fd-list" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title">{{=it.title}}</h2>
+                    </div>
+                </div>
+                <ul class="topics related-links">
+                    <li><a href="{{=it.itemUrl}}">{{=it.itemText}}</a></li>
+                </ul>
+            </div>
+        </div>
+   </script>
+   <script class="tile-template" id="tile-photo" type="text/html-template">
+    <div class="fd-tile fd-topic {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </script>
+   <script class="tile-template" id="tile-review" type="text/html-template">
+    <article itemprop="review" itemscope itemtype="http://schema.org/Review">
+        <h5><a href="{{=it.url}}">{{=it.title}}</a></h5>
+        <div class="fd-rating">
+            <div class="five-star">
+                <span class="fd-rating-percent" style="width: {{=it.rating}}"></span>
+
+                <p style="display: none;" itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating">
+                    <meta itemprop="worstRating" content = "1"/>
+                    <span itemprop="ratingValue" style="display:none"></span>
+                    <span itemprop="bestRating" style="display:none">5</span>
+                </p>
+
+            </div>
+        </div>
+        <small class="date">{{=it.date}}</small>
+        <p itemprop="description">{{=it.review}}</p>
+    </article>
+   </script>
+   <script class="tile-template" id="tile-collection" type="text/html-template">
+    <div class="fd-tile fd-gallery {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.photoUrl}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </script>
+   <script class="tile-template" id="tile-video" type="text/html-template">
+    <div class="fd-tile fd-video {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="sponsored" style="display: none;">
+                    <span class="sr-only">Sponsored by {{=it.sponsor}}</span>
+                    {{=it.sponsor}}
+                </div>
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">Video</span>
+                        Video
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</h2>
+                        <div class="author">
+                            <span class="name">By <a href="http://www.food.com/user/{{=it.userId}}">{{=it.displayName}}</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </script>
+   <script class="tile-template" id="tile-ingredient" type="text/html-template">
+    <div class="fd-tile fd-ingredient {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </script>
+   <script class="tile-template" id="tile-user" type="text/html-template">
+    <div class="fd-tile fd-user {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.blurPhotoUrl}}" data-blur="1000" data-target=".fd-img-wrap" data-quality="92" alt="{{=it.displayName}}">
+                </div>
+                <div class="tile-content">
+                    <div class="author">
+                        <span class="avatar">
+                            <a href="{{=it.url}}"><img src="{{=it.userAvatarUrl}}"></a>
+                        </span>
+                        <span class="name"><a href="{{=it.url}}">{{=it.displayName}}</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </script>
+   <script class="tile-template tmpl-metadata" type="text/html-template">
+    <span class="asset-count ">{{=it.itemCount}} {{=it.itemType}}</span>
+   </script>
+   <script class="tile-template" id="tile-howto" type="text/html-template">
+    <div class="fd-tile fd-how-to {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img src="{{=it.photoUrl}}"></a>
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </script>
+   <script class="tile-template" id="tile-article" type="text/html-template">
+    <div class="fd-tile fd-article {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img src="{{=it.photoUrl}}"></a>
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </script>
+   <script class="tile-template" id="tile-html" type="text/html-template">
+    {{=it.html}}
+   </script>
+   <script class="tile-template" id="tile-editorial" type="text/html-template">
+    <div class="fd-tile fd-editorial fd-tile-cta {{=it.noPhoto}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <img src="{{=it.photoUrl}}" alt="{{=it.title}}">
+                </div>
+                <div class="tile-content">
+                    <div class="tags">
+                        <span class="sr-only">{{=it.label}}</span>
+                        {{=it.label}}
+                    </div>
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                        <div class="description">{{=it.description}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="fd-tile-footer">
+                <button>Create an Account</button>
+            </div>
+        </div>
+   </script>
+   <script class="tile-template" id="tile-rb-recipe" type="text/html-template">
+    <div class="fd-tile fd-recipe {{=it.noPhoto}} {{=it.noUser}}" data-id="{{=it.type}}-{{=it.id}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                    <a href="{{=it.url}}"><img src="{{=it.photoUrl}}" alt="{{=it.title}}" /></a>
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title"><a href="{{=it.url}}">{{=it.title}}</a></h2>
+                        <div class="author">
+                            <span class="avatar">
+                                <a href="{{=it.userProfileUrl}}"><img src="{{=it.userAvatarUrl}}" alt="{{=it.displayName}}" /></a>
+                            </span>
+                            <span class="name">By <a href="{{=it.userProfileUrl}}">{{=it.displayName}}</a></span>
+                        </div>
+                        <div class="authorNoLink"><span class="name">By {{=it.displayName}}</span></div>
+                    </div>
+                </div>
+                <div class="tools">
+                    <a class="icon-fdc-save-to-recipe-box rb-open" data-recipe-id="{{=it.id}}" title="Add to Recipe Box"></a>
+                    <a class="icon-fdc-add-to-grocery-list grocery-list" data-recipe-id="{{=it.id}}" title="Add to Grocery List"></a>
+                    <a class="icon-fdc-share" data-recipe-id="{{=it.id}}" data-message="" data-title="{{=it.title}}" data-image="{{=it.photoUrl}}" data-url="{{=it.url}}" data-target="#share_modal" data-toggle="modal" title="Share"></a>
+                </div>
+            </div>
+        </div>
+   </script>
+   <script class="tile-template" id="tile-message" type="text/html-template">
+    <div class="fd-tile tile-error {{=it.type}}" data-url="{{=it.url}}">
+            <div class="fd-inner-tile">
+                <div class="fd-img-wrap">
+                    <div class="img-overlay">&nbsp;</div>
+                </div>
+                <div class="tile-content">
+                    <div class="details">
+                        <h2 class="title">{{=it.text}}</h2>
+                        {{? it.description }}
+                        <p class="description">{{=it.description}}</p>
+                        {{?}}
+                        <div class="cta">
+                            <div class="asset-count"><i class="{{=it.iconClass}}"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </script>
+   <!-- /footer -->
+  </div>
+ </body>
+</html>
+
+
+
+
